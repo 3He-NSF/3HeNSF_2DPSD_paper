@@ -232,7 +232,7 @@ Neutrons with spins antiparallel to the \He nuclear spins are strongly absorbed,
 Thus, neutron polarization requires \He gas polarization.
 The \He polarization was achieved by using Spin-Exchange Optical Pumping (SEOP) method \cite{bouchiat_nuclear_1960}.
 In this method, circularly polarized laser light polarizes alkali-metal atoms, and the polarization is then transferred to \He nuclei through hyperfine interactions.
-The SEOP system employed in this study was designed based on that developed for the polarized neutron spectrometer POLANO at J-PARC MLF \cite{ino_development_2017}.
+The SEOP system employed in this study was designed based on that developed for the polarized neutron spectrometer POLANO at J-PARC MLF BL23 \cite{ino_development_2017}.
 The SEOP system and the polarization analysis coil are equipped with a adiabatic fast-passage nuclear magnetic resonance (AFP NMR) system to flip the \He polarization \cite{ino_compact_2012}.
 An NMR pickup coil is also placed at the bottom of the \He cell to monitor the \He polarization with the NMR signal (Fig.~\ref{fig:Setup}).
 Two \He glass cells, named Kenji and Shimpachi, made of aluminosilicate glass (GE180) with nearly identical dimensions were used in the experiment.
@@ -245,20 +245,20 @@ It is known as an \textit{ex-situ} \Hensf~ method.
 Because the \He polarization decreases with time in this method, one cell was used for the polarized neutron experiment while the other was polarized in the SEOP system, and the two cells were alternately exchanged every two or three days during the experiment.
 
 \section{Results}
-In this section, we present the results of polarized neutron diffraction experiments on \ce{Mn3WO6} performed to demonstrate polarization analysis using a \Hensf~ combined with a two-dimensional detector.
+This section presents the results of polarized neutron diffraction experiments on a \ce{Mn3WO6} single crystal using a \Hensf~ and a two-dimensional detector.
 Figure~\ref{fig:procedure} shows the procedures for data acquisition and data reduction of polarization-analysis results for magnetic reflections distributed in three-dimensional reciprocal space.
-The data were acquired by scanning the sample rotation angle $\omega$.
-For each measurement, the \He polarization was flipped by AFP NMR to switch the analyzer condition between $I^{++}$ and $I^{+-}$.
-Because an \textit{ex-situ} \Hensf~was employed, \He polarization was gradually decayed during the experiment, the neutron polarization and transmission of the \Hensf~ also decreased with time.
-Therefore, corrections for these time-dependence are nesessary.
-For this correction, the time dependence of the \He polarization was evaluated from the nuclear Bragg reflection.
-After applying these time-dependence correction, the detector coordinates and sample rotation angle were transformed into reciprocal-space coordinates.
+A series of datasets was collected by scanning the sample rotation angle $\omega$.
+At each $\omega$, the \He polarization was flipped to measure both the non-spin-flip ($I^{++}$) and spin-flip ($I^{+-}$) scattering intensities.
+In the \textit{ex-situ} \Hensf, the neutron polarization and transmission decrease with time owing to the relaxation of the \He polarization.
+Therefore, it is necessary to evaluate the time dependence of the \He polarization.
+After applying these corrections, the detector coordinates and sample rotation angle were transformed into reciprocal-space coordinates, allowing the polarization-analysis data to be obtained at arbitrary points in reciprocal space.
+The following subsections first describe the evaluation of the \He polarization and the corresponding correction procedure using the $\bar{1}02$ nuclear Bragg reflection, and then present the corrected polarization-analysis results for the magnetic reflections measured by $\omega$ scans.
 
 \begin{figure}[t]
     \centering
     \includegraphics[width=\columnwidth]{figure/Procedure_v2.pdf}
     \caption{
-    Schematic diagram of the data-reduction procedure for polarization analysis using an \textit{ex-situ} \Hensf and a two-dimensional detector.
+    Schematic diagram of the data-reduction procedure for polarization analysis using an \textit{ex-situ} \Hensf~and a two-dimensional detector.
     Raw two-dimensional detector data measured at different sample rotation angles $\omega_i$ and times $t_i$ are corrected using the time-dependent neutron polarization $P_n(t_i)$ and transmission $T_n(t_i)$.
     The detector coordinates (X,Y) and sample rotation angle $\omega$ are converted to $Q_x,Q_y,Q_z,$ and then transformed to $H,K,L$ using the UB matrix.
     The corrected three-dimensional reciprocal-space data can then be sliced on an arbitrary plane.
@@ -280,7 +280,7 @@ After applying these time-dependence correction, the detector coordinates and sa
     }
     \label{fig:rawdata}
 \end{figure}
-The \He polarization was estimated from the nuclear Bragg peak intensity of \ce{Mn3WO6} single crystal sample.
+% The \He polarization was estimated from the nuclear Bragg peak intensity of \ce{Mn3WO6}.
 Nuclear peak intensities where the incident neutrons polarized by \ce{Cu2MnAl} single crystal monochromator and scattering neutrons analyzed by \Hensf~ were given by the following equations:
 \begin{align}
     I^{+\pm}(t) &= N_0 \Sigma^{++}T_pT_a(t)(1\pm P_pP_a(t))
@@ -290,13 +290,7 @@ where the supersucripts of $I^{+\pm}$ indicate the incident neutron polarization
 $N_0$ is a number of incident neutrons comes from the reactor source, $\Sigma^{++}$ represents the scattering cross section of the $\bar{1}02$ nuclear reflection of \ce{Mn3WO6},
 $T_p$ is the neutron transmission of the \ce{Cu2MnAl} polarizer, $T_a(t)$ is the neutron transmission of the \Hensf,
 $P_p$ is the neutron polarization of the \ce{Cu2MnAl} polarizer, and $P_a(t)$ is the neutron polarization of the \Hensf.
-By summing $I^{++}$ and $I^{+-}$ in Eq~\ref{eq:int_bragg}, the following expression is obtained:
-\begin{align}
-    I^{++}(t)+I^{+-}(t) = 2N_0 \Sigma^{++}T_pT_a(t),
-    \label{eq:transmission}
-\end{align}
-Here, the measurement time is sufficiently short compared with the relaxation time of the polarized \He gas, $I^{++}(t)$ and $I^{+-}(t)$ can be regarded as being measured at the same time.
-The neutron transmission $T_a(t)$ of \Hensf, the neutron polarization $P_a(t)$ of \Hensf, and \He polarization $P_\mathrm{He}(t)$ are given by the following equations \cite{coulter_neutron_1990},
+The neutron transmission, $T_a(t)$, the neutron polarization, $P_a(t)$, and \He polarization $P_\mathrm{He}(t)$, are given by the following equations \cite{coulter_neutron_1990},
 \begin{align}
     T_a(t) &= T_\mathrm{cell}\exp(-\rho d \sigma(\lambda))\cosh(\rho d \sigma(\lambda)P_\mathrm{He}(t)),\\
     P_a(t) &= \tanh(\rho d \sigma(\lambda)P_\mathrm{He}(t)),\\
@@ -307,11 +301,18 @@ where $T_\mathrm{cell}$ is the transmission of the \He glass cell, $\rho$ is a n
 $\sigma (\lambda)$ is a neutron absorption cross section of unpolarized \He,
 $P_0$ is the initial polarization at $t=0$, and $\tau$ is the relaxation time.
 The wavelength $\lambda$ of the incident neutrons was monochromatized to 2.36 \AA~by \ce{Cu2MnAl}.
+By summing $I^{++}$ and $I^{+-}$ in Eq~\ref{eq:int_bragg}, the following expression is obtained:
+\begin{align}
+    I^{++}(t)+I^{+-}(t) = 2N_0 \Sigma^{++}T_pT_a(t),
+    \label{eq:transmission}
+\end{align}
+Here, the measurement time is sufficiently short compared with the relaxation time of the polarized \He gas, $I^{++}(t)$ and $I^{+-}(t)$ can be regarded as being measured at the same time.
 By taking the ratio with the intensity $I_\mathrm{unpol}$ measured when the \He polarization is zero ($P_\mathrm{He} = 0$), the following equation is obtained,
 \begin{align}
     \frac{I^{++}(t)+I^{+-}(t)}{I_\mathrm{unpol}} = 2\cosh(\rho d \sigma(\lambda)P_\mathrm{He}(t)).
     \label{eq:transmission_ratio}
 \end{align}
+The \He polarization $P_\mathrm{He}(t)$ at the measurement time can be determined from these equations.
 The \He gas thickness $\rho d$ was determined from the transmission ratio between the \He cell and an empty cell of the same size.
 The value of $\rho d$ was $18.5 \pm 0.5\ [\textrm{amg cm}]$ for Kenji cell and $18.8 \pm 0.4\ [\textrm{amg cm}]$ for Shimpachi cell.
 Note that the amagat is a non-SI unit of the volumetric number density of an ideal gas at 0 $^{\circ}$C (273.15 K) and 1 atm (101.325 kPa), and one amagat is equivalent to $2.69\times 10^{19} /\textrm{cm}^3$.
@@ -331,7 +332,7 @@ The asymmetry between $I^{++}$ and $I^{+-}$ is described by Eq.~\ref{eq:int_brag
 \frac{I^{++}-I^{+-}}{I^{++}+I^{+-}} = P_pP_a(t).
 \end{equation}
 Since $P_a(t)$ is independently determined from the \He polarization, $P_p$ can be obtained and the average value of $P_p$ was found to be $0.86 \pm 0.06$.
-Note that $P_p$ was determined for each nuclear reflection measurement and includes the effects of environmental background variations and neutron depolarization in the guide field in the analysis.
+Note that $P_p$ was determined for each nuclear reflection measurement and includes the effects of environmental background and neutron depolarization in the guide field in the analysis.
 The validity of the polarization correction was confirmed using the $\omega$ scan of $\bar{1}02$ reflection.
 The integrated intensity at each $\omega$ was obtained by integrating the intensity within the peak region identified on the two-dimensional detector in Fig.~\ref{fig:rawdata}.
 The raw intensity profiles of the $\bar{1}02$ reflection show a finite spin-flip intensity owing to the imperfect neutron polarization, as shown in Fig.~\ref{fig:polcorrection}(a).
@@ -416,6 +417,8 @@ The positions of the \Hensf~ and the two-dimensional detector were fixed in the 
 In addition, a compact \textit{in-situ} \Hensf~ system has recently been developed at J-PARC, in which SEOP is continuously performed during neutron scattering experiments to maintain stable neutron polarization \cite{takahashi_development_2025}.
 This implementation is expected to provide stable neutron polarization during experiments, extend polarization analysis over a wider region of three-dimensional reciprocal space, and contribute to the elucidation of complex magnetic structures in a broader range of materials.
 \begin{acknowledgments}
+We thank Mr. Ohkawara (Tohoku Univ.) for his kind support in operating the SEOP laser system in the experimental area.
+This work was supported by JSPS KAKENHI Grant Number 25KJ0050.
 \end{acknowledgments}
 
 \appendix
