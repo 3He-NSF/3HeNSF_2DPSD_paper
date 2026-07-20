@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.8)  3 JUL 2026 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.8)  20 JUL 2026 11:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,175 +430,177 @@ Package hyperref Info: Link coloring OFF on input line 64.
 Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 64.
 \openout3 = `mainNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 132.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 125.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 132.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 125.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 140.
+(hyperref)                removing `math shift' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 140.
+(hyperref)                removing `superscript' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 140.
+(hyperref)                removing `math shift' on input line 133.
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<figure/Figure1_v8.pdf, id=99, 869.2475pt x 637.38126pt>
-File: figure/Figure1_v8.pdf Graphic file (type pdf)
-<use figure/Figure1_v8.pdf>
-Package pdftex.def Info: figure/Figure1_v8.pdf  used on input line 175.
-(pdftex.def)             Requested size: 241.84842pt x 177.33736pt.
-<figure/Scattering_Angle_v6.pdf, id=104, 947.54pt x 927.465pt>
-File: figure/Scattering_Angle_v6.pdf Graphic file (type pdf)
-<use figure/Scattering_Angle_v6.pdf>
-Package pdftex.def Info: figure/Scattering_Angle_v6.pdf  used on input line 206.
-(pdftex.def)             Requested size: 241.84842pt x 236.7198pt.
+<figure/Figure1_v9.pdf, id=98, 870.25125pt x 637.38126pt>
+File: figure/Figure1_v9.pdf Graphic file (type pdf)
+<use figure/Figure1_v9.pdf>
+Package pdftex.def Info: figure/Figure1_v9.pdf  used on input line 174.
+(pdftex.def)             Requested size: 241.84842pt x 177.13312pt.
+<figure/Scattering_Angle_v7.pdf, id=103, 947.54pt x 941.5175pt>
+File: figure/Scattering_Angle_v7.pdf Graphic file (type pdf)
+<use figure/Scattering_Angle_v7.pdf>
+Package pdftex.def Info: figure/Scattering_Angle_v7.pdf  used on input line 209.
+(pdftex.def)             Requested size: 241.84842pt x 240.30646pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 218.
+(hyperref)                removing `math shift' on input line 221.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 218.
+(hyperref)                removing `superscript' on input line 221.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 218.
+(hyperref)                removing `math shift' on input line 221.
 
-[2 <./figure/Figure1_v8.pdf>]
-<figure/Procedure_v5.pdf, id=150, 1566.85374pt x 701.62125pt>
+[2 <./figure/Figure1_v9.pdf>]
+<figure/Procedure_v5.pdf, id=149, 1566.85374pt x 701.62125pt>
 File: figure/Procedure_v5.pdf Graphic file (type pdf)
 <use figure/Procedure_v5.pdf>
-Package pdftex.def Info: figure/Procedure_v5.pdf  used on input line 270.
+Package pdftex.def Info: figure/Procedure_v5.pdf  used on input line 275.
 (pdftex.def)             Requested size: 408.00156pt x 182.69557pt.
- [3 <./figure/Scattering_Angle_v6.pdf>]
+
+Overfull \vbox (23.04103pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (23.04103pt too high) has occurred while \output is active []
+
+ [3 <./figure/Scattering_Angle_v7.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 306.
+(hyperref)                removing `math shift' on input line 319.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 306.
+(hyperref)                removing `superscript' on input line 319.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 306.
+(hyperref)                removing `math shift' on input line 319.
 
-<figure/raw_data_v10.pdf, id=199, 880.28876pt x 778.91pt>
-File: figure/raw_data_v10.pdf Graphic file (type pdf)
-<use figure/raw_data_v10.pdf>
-Package pdftex.def Info: figure/raw_data_v10.pdf  used on input line 309.
-(pdftex.def)             Requested size: 246.0pt x 217.66545pt.
-<figure/NMR_vs_time_20260530.pdf, id=200, 550.055pt x 405.515pt>
+<figure/raw_data_v9.pdf, id=205, 794.97pt x 796.9775pt>
+File: figure/raw_data_v9.pdf Graphic file (type pdf)
+<use figure/raw_data_v9.pdf>
+Package pdftex.def Info: figure/raw_data_v9.pdf  used on input line 322.
+(pdftex.def)             Requested size: 246.0pt x 246.62267pt.
+<figure/NMR_vs_time_20260530.pdf, id=206, 550.055pt x 405.515pt>
 File: figure/NMR_vs_time_20260530.pdf Graphic file (type pdf)
 <use figure/NMR_vs_time_20260530.pdf>
-Package pdftex.def Info: figure/NMR_vs_time_20260530.pdf  used on input line 317.
+Package pdftex.def Info: figure/NMR_vs_time_20260530.pdf  used on input line 330.
 (pdftex.def)             Requested size: 246.0pt x 181.3539pt.
-<figure/Polarization_correction_v6.pdf, id=201, 820.06375pt x 437.635pt>
+<figure/Polarization_correction_v6.pdf, id=207, 820.06375pt x 437.635pt>
 File: figure/Polarization_correction_v6.pdf Graphic file (type pdf)
 <use figure/Polarization_correction_v6.pdf>
-Package pdftex.def Info: figure/Polarization_correction_v6.pdf  used on input line 328.
+Package pdftex.def Info: figure/Polarization_correction_v6.pdf  used on input line 341.
 (pdftex.def)             Requested size: 246.0pt x 131.27815pt.
+[4 <./figure/Procedure_v5.pdf>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./figure/Procedure_v5.pdf> <./figure/raw_data_v10.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 351.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 361.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 351.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 361.
 
 
 Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
 
-[5 <./figure/NMR_vs_time_20260530.pdf> <./figure/Polarization_correction_v6.pdf>]
-<figure/Figure6_v5.pdf, id=355, 1284.8pt x 603.25375pt>
+[5 <./figure/raw_data_v9.pdf> <./figure/NMR_vs_time_20260530.pdf> <./figure/Polarization_correction_v6.pdf>]
+<figure/Figure6_v5.pdf, id=350, 1284.8pt x 603.25375pt>
 File: figure/Figure6_v5.pdf Graphic file (type pdf)
 <use figure/Figure6_v5.pdf>
-Package pdftex.def Info: figure/Figure6_v5.pdf  used on input line 401.
+Package pdftex.def Info: figure/Figure6_v5.pdf  used on input line 442.
 (pdftex.def)             Requested size: 510.0pt x 239.45624pt.
+ [6]
 
-Underfull \hbox (badness 1824) in paragraph at lines 430--437
-\OT1/cmr/m/n/10 demon-strated a cor-rec-tion pro-ce-dure for the time-
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 486.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 486.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 486.
+
+
+Overfull \hbox (10.78258pt too wide) detected at line 527
+[][][][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 N[]T[]T[] [] [] [] :
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 444.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 444.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 444.
-
-<figure/Appendix_v6.pdf, id=364, 914.41624pt x 459.7175pt>
-File: figure/Appendix_v6.pdf Graphic file (type pdf)
-<use figure/Appendix_v6.pdf>
-Package pdftex.def Info: figure/Appendix_v6.pdf  used on input line 448.
-(pdftex.def)             Requested size: 241.84842pt x 121.58604pt.
-[6] [7 <./figure/Figure6_v5.pdf> <./figure/Appendix_v6.pdf>] (./main.bbl
-Underfull \hbox (badness 4819) in paragraph at lines 60--61
+[7 <./figure/Figure6_v5.pdf>]
+<figure/Appendix_v7.pdf, id=427, 884.30376pt x 470.75874pt>
+File: figure/Appendix_v7.pdf Graphic file (type pdf)
+<use figure/Appendix_v7.pdf>
+Package pdftex.def Info: figure/Appendix_v7.pdf  used on input line 559.
+(pdftex.def)             Requested size: 241.84842pt x 128.74432pt.
+ (./main.bbl
+Underfull \hbox (badness 4819) in paragraph at lines 54--55
  []\OT1/cmr/m/n/9 J. Kulda, J. []Saroun, P. Cour-tois, M. En-derle,
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 75--76
+Underfull \hbox (badness 1762) in paragraph at lines 69--70
  []\OT1/cmr/m/n/9 S. M^^?uhlbauer, B. Binz, F. Joni-etz, C. Pflei-derer,
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 81--82
+Underfull \hbox (badness 3108) in paragraph at lines 75--76
  []\OT1/cmr/m/n/9 N. Kanazawa, A. Ki-taori, J. White, V. Uk-leev,
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 90--91
+Underfull \hbox (badness 1365) in paragraph at lines 84--85
  []\OT1/cmr/m/n/9 D. Singh, Y. Fu-jishiro, S. Hayami, S. H. Moody,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
  []\OT1/cmr/m/n/9 W. T. H. Lee and T. D'Adam, []Neu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
  \OT1/cmr/m/n/9 tron News \OT1/cmr/bx/n/9 27\OT1/cmr/m/n/9 , 35 (2016)[], []eprint:
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 105--106
+Underfull \hbox (badness 2302) in paragraph at lines 99--100
  []\OT1/cmr/m/n/9 T. Naka-mura, T. Kawasaki, T. Hosoya, K. Toh,
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 105--106
+Underfull \hbox (badness 1824) in paragraph at lines 99--100
  \OT1/cmr/m/n/9 K. Oikawa, K. Saka-sai, M. Ebine, A. Biru-machi,
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 105--106
+Underfull \hbox (badness 1038) in paragraph at lines 99--100
  \OT1/cmr/m/n/9 Spec-trom-e-ters, De-tec-tors and As-so-ci-ated Equip-ment
  []
 
-[8]
-Underfull \hbox (badness 5050) in paragraph at lines 126--127
+[8 <./figure/Appendix_v7.pdf>]
+Underfull \hbox (badness 5050) in paragraph at lines 123--124
  \OT1/cmr/m/n/9 R. Kobayashi, M. Okuizumi, T. Ino, K. Asai,
  []
 
@@ -608,21 +610,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9165DCE9F326C4DC1860FC2B0CD7FF11;2941.
+(rerunfilecheck)             Checksum: 215E68F627C60EB2A3B7CE4DD789BF60;3302.
  ) 
 Here is how much of TeX's memory you used:
- 13379 strings out of 474116
- 211341 string characters out of 5743682
- 1959187 words of memory out of 5000000
- 35486 multiletter control sequences out of 15000+600000
+ 13382 strings out of 474116
+ 211303 string characters out of 5743682
+ 1956187 words of memory out of 5000000
+ 35487 multiletter control sequences out of 15000+600000
  573814 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,1701b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1701b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (9 pages, 1570753 bytes).
+Output written on main.pdf (9 pages, 2082061 bytes).
 PDF statistics:
- 629 PDF objects out of 1000 (max. 8388607)
+ 623 PDF objects out of 1000 (max. 8388607)
  455 compressed objects within 5 object streams
- 70 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
