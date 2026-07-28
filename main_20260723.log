@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.8)  28 JUL 2026 15:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.8)  23 JUL 2026 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/takahashishingo/research/document/Papers/3HeNSF_2DPSD/NSF 2D PSD Paper/main"
-(/Users/takahashishingo/research/document/Papers/3HeNSF_2DPSD/NSF 2D PSD Paper/main.tex
+**"/Users/takahashishingo/research/document/Papers/3HeNSF_2DPSD/NSF 2D PSD Paper/main_20260723"
+(/Users/takahashishingo/research/document/Papers/3HeNSF_2DPSD/NSF 2D PSD Paper/main_20260723.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/revtex/revtex4-2.cls
@@ -379,8 +379,8 @@ Class revtex4-2 Info: Unrecognized array package. Please update this document cl
 Class revtex4-2 Info: cite was not loaded (OK!) on input line 64.
 Class revtex4-2 Info: mcite was not loaded (OK!) on input line 64.
 Class revtex4-2 Info: multicol was not loaded (OK!) on input line 64.
- (./main.aux)
-\openout1 = `main.aux'.
+ (./main_20260723.aux)
+\openout1 = `main_20260723.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
@@ -423,12 +423,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package chemgreek Info: Activating mapping `default' on line 64.
 
 Package hyperref Info: Link coloring OFF on input line 64.
- (./main.out) (./main.out)
+ (./main_20260723.out) (./main_20260723.out)
 \@outlinefile=\write5
-\openout5 = `main.out'.
+\openout5 = `main_20260723.out'.
 
 Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 64.
-\openout3 = `mainNotes.bib'.
+\openout3 = `main_20260723Notes.bib'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 125.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -450,180 +450,185 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 133.
 
-
-Underfull \hbox (badness 1365) in paragraph at lines 148--153
-\OT1/cmr/m/n/10 to ma-te-ri-als host-ing com-plex in-com-men-su-rate mag-
- []
-
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<figure/Figure1_v10.pdf, id=97, 870.25125pt x 637.38126pt>
-File: figure/Figure1_v10.pdf Graphic file (type pdf)
-<use figure/Figure1_v10.pdf>
-Package pdftex.def Info: figure/Figure1_v10.pdf  used on input line 172.
+<figure/Figure1_v9.pdf, id=98, 870.25125pt x 637.38126pt>
+File: figure/Figure1_v9.pdf Graphic file (type pdf)
+<use figure/Figure1_v9.pdf>
+Package pdftex.def Info: figure/Figure1_v9.pdf  used on input line 174.
 (pdftex.def)             Requested size: 241.84842pt x 177.13312pt.
-<figure/Scattering_Angle_v7.pdf, id=102, 947.54pt x 941.5175pt>
+<figure/Scattering_Angle_v7.pdf, id=103, 947.54pt x 941.5175pt>
 File: figure/Scattering_Angle_v7.pdf Graphic file (type pdf)
 <use figure/Scattering_Angle_v7.pdf>
-Package pdftex.def Info: figure/Scattering_Angle_v7.pdf  used on input line 207.
+Package pdftex.def Info: figure/Scattering_Angle_v7.pdf  used on input line 210.
 (pdftex.def)             Requested size: 241.84842pt x 240.30646pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 219.
+(hyperref)                removing `superscript' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
+(hyperref)                removing `math shift' on input line 222.
 
-[2 <./figure/Figure1_v10.pdf>]
-<figure/Procedure_v6.pdf, id=150, 1566.85374pt x 701.62125pt>
-File: figure/Procedure_v6.pdf Graphic file (type pdf)
-<use figure/Procedure_v6.pdf>
-Package pdftex.def Info: figure/Procedure_v6.pdf  used on input line 275.
+[2 <./figure/Figure1_v9.pdf>]
+<figure/Procedure_v5.pdf, id=149, 1566.85374pt x 701.62125pt>
+File: figure/Procedure_v5.pdf Graphic file (type pdf)
+<use figure/Procedure_v5.pdf>
+Package pdftex.def Info: figure/Procedure_v5.pdf  used on input line 276.
 (pdftex.def)             Requested size: 408.00156pt x 182.69557pt.
- [3 <./figure/Scattering_Angle_v7.pdf>] [4 <./figure/Procedure_v6.pdf>]
+
+Overfull \hbox (21.70737pt too wide) detected at line 298
+[]
+ []
+
+[3 <./figure/Scattering_Angle_v7.pdf>] [4 <./figure/Procedure_v5.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 355.
+(hyperref)                removing `math shift' on input line 354.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 355.
+(hyperref)                removing `superscript' on input line 354.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 355.
+(hyperref)                removing `math shift' on input line 354.
 
-<figure/raw_data_v11.pdf, id=275, 794.97pt x 783.92876pt>
-File: figure/raw_data_v11.pdf Graphic file (type pdf)
-<use figure/raw_data_v11.pdf>
-Package pdftex.def Info: figure/raw_data_v11.pdf  used on input line 359.
-(pdftex.def)             Requested size: 246.0pt x 242.58478pt.
-<figure/NMR_vs_time_20260530.pdf, id=276, 548.9509pt x 404.33435pt>
+<figure/raw_data_v9.pdf, id=262, 794.97pt x 796.9775pt>
+File: figure/raw_data_v9.pdf Graphic file (type pdf)
+<use figure/raw_data_v9.pdf>
+Package pdftex.def Info: figure/raw_data_v9.pdf  used on input line 357.
+(pdftex.def)             Requested size: 246.0pt x 246.62267pt.
+<figure/NMR_vs_time_20260530.pdf, id=263, 550.055pt x 405.515pt>
 File: figure/NMR_vs_time_20260530.pdf Graphic file (type pdf)
 <use figure/NMR_vs_time_20260530.pdf>
-Package pdftex.def Info: figure/NMR_vs_time_20260530.pdf  used on input line 367.
-(pdftex.def)             Requested size: 246.0pt x 181.19608pt.
-<figure/Polarization_correction_v9.pdf, id=277, 820.06375pt x 437.635pt>
-File: figure/Polarization_correction_v9.pdf Graphic file (type pdf)
-<use figure/Polarization_correction_v9.pdf>
-Package pdftex.def Info: figure/Polarization_correction_v9.pdf  used on input line 378.
+Package pdftex.def Info: figure/NMR_vs_time_20260530.pdf  used on input line 365.
+(pdftex.def)             Requested size: 246.0pt x 181.3539pt.
+<figure/Polarization_correction_v6.pdf, id=264, 820.06375pt x 437.635pt>
+File: figure/Polarization_correction_v6.pdf Graphic file (type pdf)
+<use figure/Polarization_correction_v6.pdf>
+Package pdftex.def Info: figure/Polarization_correction_v6.pdf  used on input line 376.
 (pdftex.def)             Requested size: 246.0pt x 131.27815pt.
-[5 <./figure/raw_data_v11.pdf>]
+[5 <./figure/raw_data_v9.pdf> <./figure/NMR_vs_time_20260530.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 426.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 396.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 426.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 396.
 
 
 Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
 
-[6 <./figure/NMR_vs_time_20260530.pdf> <./figure/Polarization_correction_v9.pdf>]
-<figure/Figure6_v7.pdf, id=412, 1284.8pt x 614.295pt>
-File: figure/Figure6_v7.pdf Graphic file (type pdf)
-<use figure/Figure6_v7.pdf>
-Package pdftex.def Info: figure/Figure6_v7.pdf  used on input line 475.
-(pdftex.def)             Requested size: 510.0pt x 243.83896pt.
- [7]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 532.
+[6 <./figure/Polarization_correction_v6.pdf>]
+<figure/Figure6_v5.pdf, id=357, 1284.8pt x 603.25375pt>
+File: figure/Figure6_v5.pdf Graphic file (type pdf)
+<use figure/Figure6_v5.pdf>
+Package pdftex.def Info: figure/Figure6_v5.pdf  used on input line 501.
+(pdftex.def)             Requested size: 510.0pt x 239.45624pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 532.
+(hyperref)                removing `math shift' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 532.
+(hyperref)                removing `superscript' on input line 545.
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 578--580
-\OT1/cmr/m/n/10 cays over time, both the neu-tron po-lar-iza-tion ef-fi-
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 545.
 
-[8 <./figure/Figure6_v7.pdf>]
-<figure/Appendix_v8.pdf, id=488, 884.30376pt x 470.75874pt>
-File: figure/Appendix_v8.pdf Graphic file (type pdf)
-<use figure/Appendix_v8.pdf>
-Package pdftex.def Info: figure/Appendix_v8.pdf  used on input line 611.
+[7]
+<figure/Appendix_v7.pdf, id=383, 884.30376pt x 470.75874pt>
+File: figure/Appendix_v7.pdf Graphic file (type pdf)
+<use figure/Appendix_v7.pdf>
+Package pdftex.def Info: figure/Appendix_v7.pdf  used on input line 618.
 (pdftex.def)             Requested size: 241.84842pt x 128.74432pt.
- (./main.bbl
-Underfull \hbox (badness 4819) in paragraph at lines 63--64
+ (./main_20260723.bbl
+Underfull \hbox (badness 4819) in paragraph at lines 54--55
  []\OT1/cmr/m/n/9 J. Kulda, J. []Saroun, P. Cour-tois, M. En-derle,
  []
 
+[8 <./figure/Figure6_v5.pdf>]
 
-Underfull \hbox (badness 1762) in paragraph at lines 78--79
+LaTeX Warning: A float is stuck (cannot be placed) on input line 58.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 58.
+
+
+Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 69--70
  []\OT1/cmr/m/n/9 S. M^^?uhlbauer, B. Binz, F. Joni-etz, C. Pflei-derer,
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 84--85
+Underfull \hbox (badness 3108) in paragraph at lines 75--76
  []\OT1/cmr/m/n/9 N. Kanazawa, A. Ki-taori, J. White, V. Uk-leev,
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 93--94
+Underfull \hbox (badness 1365) in paragraph at lines 84--85
  []\OT1/cmr/m/n/9 D. Singh, Y. Fu-jishiro, S. Hayami, S. H. Moody,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
  []\OT1/cmr/m/n/9 W. T. H. Lee and T. D'Adam, []Neu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
  \OT1/cmr/m/n/9 tron News \OT1/cmr/bx/n/9 27\OT1/cmr/m/n/9 , 35 (2016)[], []eprint:
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 108--109
+Underfull \hbox (badness 2302) in paragraph at lines 99--100
  []\OT1/cmr/m/n/9 T. Naka-mura, T. Kawasaki, T. Hosoya, K. Toh,
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 108--109
+Underfull \hbox (badness 1824) in paragraph at lines 99--100
  \OT1/cmr/m/n/9 K. Oikawa, K. Saka-sai, M. Ebine, A. Biru-machi,
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 108--109
+Underfull \hbox (badness 1038) in paragraph at lines 99--100
  \OT1/cmr/m/n/9 Spec-trom-e-ters, De-tec-tors and As-so-ci-ated Equip-ment
  []
 
-[9 <./figure/Appendix_v8.pdf>]
-Underfull \hbox (badness 5050) in paragraph at lines 138--139
+
+Underfull \hbox (badness 5050) in paragraph at lines 123--124
  \OT1/cmr/m/n/9 R. Kobayashi, M. Okuizumi, T. Ino, K. Asai,
  []
 
-) [10] (./main.aux)
+) [9 <./figure/Appendix_v7.pdf>] (./main_20260723.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `main_20260723.out' has not changed.
 (rerunfilecheck)             Checksum: 215E68F627C60EB2A3B7CE4DD789BF60;3302.
  ) 
 Here is how much of TeX's memory you used:
- 13402 strings out of 474116
- 211905 string characters out of 5743682
- 1956187 words of memory out of 5000000
- 35501 multiletter control sequences out of 15000+600000
+ 13380 strings out of 474116
+ 211528 string characters out of 5743682
+ 1967187 words of memory out of 5000000
+ 35485 multiletter control sequences out of 15000+600000
  573814 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,1701b,676s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1710b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (10 pages, 2393111 bytes).
+Output written on main_20260723.pdf (9 pages, 2088469 bytes).
 PDF statistics:
- 689 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
- 78 named destinations out of 1000 (max. 500000)
+ 623 PDF objects out of 1000 (max. 8388607)
+ 455 compressed objects within 5 object streams
+ 72 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

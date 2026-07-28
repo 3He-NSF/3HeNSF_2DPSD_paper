@@ -90,7 +90,7 @@ floatfix,
 
 \author{T.~Oku}
 \affiliation{J-PARC Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki 319-1195, Japan}
-\affiliation{Ibaraki University, 2-1-1 Bunkyo, mito, Ibaraki 310-8512, Japan}
+% \affiliation{Ibaraki University, 2-1-1 Bunkyo, mito, Ibaraki 310-8512, Japan}
 
 \author{T.~Nakamura}
 \affiliation{J-PARC Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki 319-1195, Japan}
@@ -121,9 +121,9 @@ floatfix,
 Polarized neutron scattering has been widely used for studying magnetic orders in condensed matter.
 One of the typical setups for this technique is a triple-axis spectrometer with a ferromagnetic single-crystal monochromator and analyzer, which is suited for point-by-point measurements on a horizontal scattering plane.
 However, this setup cannot fully meet the demands of recent studies on complex magnetic orders with emergent cross-correlated phenomena.
-For instance, multiferroics, magnetic skyrmions, and other topologically-nontrivial magnetic orders tend to have incommensurate magnetic modulation vectors running along various directions in reciprocal space, which cannot be captured by measurements restricted to the horizontal scattering plane.
-To overcome these limitations, we developed an experimental setup combining a \He neutron spin filter (\Hensf) and a two-dimensional (2D) detector, which enables us to analyze polarization of neutron scattered in out-of-plane direction.
-We also established a data reduction procedure to convert the 2D intensity maps into three-dimensional intensity distributions in the reciprocal space with corrections of the imperfection in \He polarization.
+For instance, multiferroics, magnetic skyrmions, and other topologically nontrivial magnetic orders tend to have incommensurate magnetic modulation vectors running along various directions in reciprocal space, which cannot be captured by measurements restricted to the horizontal scattering plane.
+To overcome these limitations, we developed an experimental setup combining a \He neutron spin filter (\Hensf) and a two-dimensional (2D) detector, which enables us to analyze the polarization of neutrons scattered in the out-of-plane direction.
+We also established a data reduction procedure to convert the 2D intensity maps into three-dimensional intensity distributions in reciprocal space, correcting for the effect of imperfect \He polarization.
 This method was applied to single-crystal diffraction measurements on the multiferroic material \ce{Mn3WO6}, which exhibits complex incommensurate magnetic orders.
 We successfully observed polarization-dependent intensities of out-of-plane incommensurate magnetic reflections, demonstrating the effectiveness of the present method for analyzing complex magnetic structures.
 \end{abstract}
@@ -133,47 +133,45 @@ We successfully observed polarization-dependent intensities of out-of-plane inco
 \maketitle
 \section{Introduction}
 Polarized neutron scattering is a powerful technique for investigating magnetic order and excitations in condensed matter.
-This capability arises because neutrons interact directly with magnetic moments in the material through the magnetic dipole interaction.
-By analyzing the spin states of neutrons before and after scattering, magnetic scattering can be separated from nuclear scattering.
-The directions of magnetic moments can also be determined.
-To perform such polarization analysis, a neutron polarization device is required.
-Three techniques are commonly used for neutron polarization.
-The first employs Bragg reflection from a ferromagnetic single crystal, such as a Heusler crystal of \ce{Cu2MnAl}.
-The second uses reflection from a polarizing supermirror.
-The third is filtering of neutron spin state using polarized \He nuclei (\He neutron spin filter, \Hensf).
-Among these techniques, polarization analysis at triple-axis spectrometers is often performed using Heusler crystals as the neutron polarizer and analyzer \cite{kulda_in20_2002,faulhaber_polarized_2010,fernandez-baca_triple-axis_2008,takeda_double_2008,nakajima_polarized_2024}, as shown in Fig.~\ref{fig:introduction}(a).
-While this type of instrument has been widely used for magnetic structure analysis, the accessible scattering vectors are for restricted to the horizontal scattering plane.
+This capability arises from the magnetic moment of the neutron, which directly interacts with magnetic moments in the material through the magnetic dipole-dipole interaction.
+By analyzing the spin states of neutrons before and after scattering, one can separate magnetic scattering from nuclear scattering, and determine the directions of magnetic moments in the sample.
+To perform these measurements, devices for controlling and probing the neutron polarization are required.
+To date, three techniques have been widely used for polarized neutron scattering.
+The first is a single crystal of ferromagnetic material, such as a \ce{Cu2MnAl} Heusler compound.
+By exploiting the nuclear-magnetic interference effect, which gives rise to different Bragg reflectivities for the two neutron spin states, a polarized monochromatic neutron beam can be obtained \cite{squires1996introduction}.
+The second is a polarizing supermirror, which utilizes the difference in critical angle between neutrons with different spin states \cite{mezei1976novel}.
+The third is a polarizing filter, utilizing the strong spin dependence of the neutron absorption cross-section of \He nuclei (\He neutron spin filter, \Hensf) \cite{gentile2017optically}.
+Among these techniques, the ferromagnetic single-crystal monochromators are often used to polarize incident neutrons and analyze scattered neutrons in triple-axis spectrometers \cite{kulda_in20_2002,faulhaber_polarized_2010,fernandez-baca_triple-axis_2008,takeda_double_2008,nakajima_polarized_2024}, as shown in Fig.~\ref{fig:introduction}(a).
+% Among these techniquesときたら、その次にはその３つのテクニックのうちどれかが文頭にこないとおかしいです。
+While this type of instrument has been widely used for studying magnetic structures, accessible reflections are often restricted to the horizontal scattering plane.
 
-In recent years, increasing attention has been paid to materials hosting complex magnetic structures.
-In such materials, the magnetic moments are often arranged in noncollinear or noncoplanar configurations, which can give rise to emergent cross-correlated phenomena.
-Representative examples include magnetic skyrmions and spin-hedgehog lattices \cite{muhlbauer_skyrmion_2009,tokura_multiferroics_2014}.
-A common feature of these systems is that their magnetic structures are often described by multiple magnetic modulation wavevectors ($q$-vectors).
-Consequently, the associated magnetic reflections can be distributed not only within a horizontal scattering plane but throughout three-dimensional reciprocal space.
-To perform polarization analysis on these reflections, a large-solid-angle polarization device such as \Hensf~is required.
+In recent years, increasing attention has been paid to materials hosting complex incommensurate magnetic orders, such as spin-driven multiferroics, magnetic skyrmions and related topological magnetic orders\cite{muhlbauer_skyrmion_2009,tokura_multiferroics_2014,kanazawa_direct_2020,fujishiro_topological_2019,kurumaji_electronic_2025}.
+In these systems, the magnetic moments are often arranged in noncollinear or noncoplanar configurations, which can give rise to emergent cross-correlated phenomena.
+To study these systems, it is necessary to measure magnetic satellite reflections corresponding to magnetic modulation wavevectors ($q$-vectors), which often run along various directions in reciprocal space.
+Consequently, three-dimensional exploration of the reciprocal space with a two-dimensional (2D) detector is of great importance.
+To realize polarization analysis in the measurements with a 2D detector, polarization devices with a large solid-angle coverage, such as \Hensf, are required.
 
-As an experimental technique for elucidating such complex magnetic structures, polarized small-angle neutron scattering (SANS) has been widely used \cite{muhlbauer_skyrmion_2009,kanazawa_direct_2020,fujishiro_topological_2019,kurumaji_electronic_2025}.
-In polarized SANS, three-dimensional polarization analysis is already realized by combining a \Hensf~and a two-dimensional (2D) detector~\cite{singh_transition_2023,takagi_multiple-q_2018}.
-In this setup, however, the detector and the \Hensf~are positioned directly in line with the incident beam, so the accessible region is restricted to relatively low-$Q$.
-If the same combination of \Hensf~and 2D detector at finite scattering angles as illustrated in Fig.~\ref{fig:introduction}(b), polarization analysis can be extended to much higher-$Q$ regions.
-This would make it possible to access a wide variety of magnetic reflections distributed throughout three-dimensional reciprocal space, including those associated with the complex magnetic structures described above.
+The combination of a \Hensf\ and a 2D detector has been implemented in several small-angle neutron scattering (SANS) instruments and has been applied to studies of complex magnetic structures \cite{singh_transition_2023,takagi_multiple-q_2018}.
+However, their accessible reciprocal space region is generally limited to relatively low-$Q$.
+To extend the accessible $Q$ range for polarization analysis to middle-$Q$ and high-$Q$ regions, it would be necessary to place a \Hensf~and a 2D detector at finite scattering angles, as illustrated in Fig.~\ref{fig:introduction}(b).
 Related instrumental concepts have already been reported at several neutron facilities, including POLI at MLZ~\cite{thoma_polarized_2018} and WOMBAT at ANSTO~\cite{lee_polarised_2016}.
 Nevertheless, to the best of our knowledge, quantitative experimental demonstrations of polarization analysis using this type of setup remain limited.
 
 
-In this work, we performed polarization analysis combining a \Hensf~and a 2D detector on the polarized neutron triple-axis spectrometer PONTA at JRR-3.
-Polarized neutron diffraction experiments on \ce{Mn3WO6} were performed using this setup.
-\ce{Mn3WO6} is a multiferroic material with a ferroaxial crystal structure belonging to the R$\bar{3}$ space group \cite{maignan_spin-induced_2020}.
-This system undergoes an antiferromagnetic phase transition at 24.5 K and exhibits spontaneous electric polarization below 22 K.
-In this study, polarization analysis was performed at 23 K, just below the antiferromagnetic transition.
-This paper mainly describes the experimental method and the data-analysis procedure.
-The details of the magnetic structure will be reported in a separate paper.
+In the present study, we performed polarized neutron diffraction measurements combining a \Hensf~and a 2D detector on the 5G beamport at JRR-3.
+This paper mainly describes the experimental setup, procedures of measurement and corrections for the effects of imperfect neutron polarization.
+We also performed polarized neutron diffraction on a single crystal of \ce{Mn3WO6}, which exhibits incommensurate magnetic orders.
+This compound has a crystal structure belonging to space group of $R\bar{3}$, and displays two magnetically ordered phases at low temperatures \cite{maignan_spin-induced_2020}.
+As we describe in the following sections, we focus on the data measured at 23 K, which corresponds to the high-temperature magnetic phase.
+We performed polarization analysis for magnetic reflections that were slightly shifted from the horizontal plane.
+The details of the magnetic structure will be reported elsewhere.
 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8.5cm]{figure/Figure1_v9.pdf}
+    \includegraphics[width=8.5cm]{figure/Figure1_v10.pdf}
     \caption{Schematic illustrations comparing neutron polarization analysis techniques.
-(a) Conventional setup using Heusler crystals for both polarizer and analyzer, where only in-plane scattered neutrons are detected by a point detector.
+(a) Conventional setup using Heusler crystals for both the polarizer and the analyzer, where only in-plane scattered neutrons are detected by a point detector.
 (b) Polarization analysis setup combining a \Hensf~and a 2D detector, enabling detection of both in-plane and out-of-plane scattered neutrons.}
     \label{fig:introduction}
 \end{figure}
@@ -183,23 +181,22 @@ The details of the magnetic structure will be reported in a separate paper.
 
 
 \subsection{Setup}
-% 一般論
-PONTA is one of the polarized neutron triple-axis spectrometers at JRR-3.
-It has a longitudinal polarization analysis option~\cite{nakajima_polarized_2024}.
-In this option, both the incident and scattered neutrons are polarized and analyzed by a \ce{Cu2MnAl} Heusler crystal monochromator and analyzer.
-In the present experiment, the Heusler analyzer and the point detector were replaced with a \Hensf and a 2D detector.
+The 5G beamport at JRR-3 is normally operated as the POlarized Neutron Triple-Axis spectrometer (PONTA), which has a longitudinal polarization analysis option with a conventional Heusler monochromator and analyzer~\cite{nakajima_polarized_2024}.
+In the present experiment, the Heusler analyzer and the point detector were replaced with a \Hensf\ and a 2D detector.
+The Heusler monochromator provided a polarized incident neutron beam with an energy of 14.7 meV.
+The higher-order reflections from the monochromator were suppressed by a pyrolytic graphite filter placed between the monochromator and the sample.
 Fig.~\ref{fig:Setup} shows an overview of the experimental setup from the sample to the detector.
-Scattered neutrons were detected using a scintillation-type 2D detector employing wavelength-shifting-fiber readout~\cite{nakamura_large-area_2012}.
-The active area is \(256 \times 256\) mm$^2$ (64 ch $\times$ 64 ch), corresponding to a channel pitch of 4 mm/ch.
-The detector was positioned at an angle of approximately \(32^\circ\) with respect to the incident neutron beam and remained fixed throughout the measurement.
+Scattered neutrons were detected using a scintillation-type 2D detector employing wavelength-shifting fiber readout~\cite{nakamura_large-area_2012}.
+The active area is \(256 \times 256\) mm$^2$, consisting of 64 $\times$ 64 channels with a channel pitch of 4 mm.
+The detector was positioned at an angle of \(32^\circ\) with respect to the incident neutron beam and remained fixed throughout the measurement.
 The sample-to-detector distance was 0.915 m.
-A \Hensf~was installed 0.43 m downstream of the sample between the sample and the detector.
-The cylindrical \He cell had a diameter of 72 mm, providing an angular acceptance of \(\pm4.0^\circ\), which covered approximately half of the central region of the detector.
+A \Hensf~was installed 0.43 m downstream of the sample.
+The cylindrical \He cell provided an angular acceptance of \(\pm4.0^\circ\), which corresponded to a circular region with a radius of 19 channels centered at the detector pixel (31.5, 31.5).
+Polarization analysis of the scattered neutrons was possible only within this region.
 To reduce the background, a \ce{B4C}-shielded neutron guide tube was installed between the \Hensf~and the detector, and \ce{B4C} shielding was also attached around the \Hensf~coil.
-As described in the following section, polarization analysis of the scattered neutrons was performed by flipping the \He polarization.
+The non-spin-flip and spin-flip intensities of the scattered neutrons were obtained by flipping the \He polarization.
 Therefore, the neutron spin flipper for the incident beam was not used.
-
-A single-crystal sample of \ce{Mn3WO6} with a volume of 8 mm$^3$ was mounted on an aluminum holder and installed in a cryostat with the scattering plane set to the $(H0L)$ plane.
+A single-crystal sample of \ce{Mn3WO6} with a volume of 8 mm$^3$ was mounted on an aluminum holder and installed in a $^4$He closed-cycle refrigerator such that the $(H,0,L)$ plane coincided with the horizontal scattering plane.
 The rotation angle $\omega$ of the sample was adjustable to align the target reflection with the detector.
 The Helmholtz coil was used to maintain the neutron spin polarization along the neutron flight path by applying a vertical magnetic field.
 The magnetic field in the \Hensf~was oriented parallel to the beam axis, and the spins of neutrons scattered from the sample adiabatically followed the field direction, as illustrated in Fig.~\ref{fig:Setup}.
@@ -209,9 +206,9 @@ The magnetic field strength generated by both the \Hensf~coil and the Helmholtz 
     \centering
     \includegraphics[width=8.5cm]{figure/Scattering_Angle_v7.pdf}
     \caption{
-    Schematic illustration of the experimental setup at the 5G PONTA.
+    Schematic illustration of the experimental setup on the 5G beamport.
     Scattered neutrons from the sample pass through the \Hensf~coil and the neutron guide tube before reaching the 2D detector.
-    The sample is mounted in a cryostat that can be rotated by an angle $\omega$.
+    The sample is mounted in a cryostat whose rotation angle is denoted by $\omega$.
     The magnetic field direction induced by the Helmholtz coil is vertical, whereas the field within the \Hensf~is oriented along the beam axis.
     The neutron spins are adiabatically rotated to follow the field direction.
     A radiofrequency (RF) coil is used to flip the \He polarization, and an NMR pickup coil monitors the \He polarization after each spin flip.
@@ -220,6 +217,7 @@ The magnetic field strength generated by both the \Hensf~coil and the Helmholtz 
 \end{figure}
 
 \subsection{\He neutron spin filter}
+\label{sec:hensf}
 \begin{table*}[t]
 \caption{Specifications of \He cells.}
 \label{tab:He_cell}
@@ -247,22 +245,22 @@ The magnetic field strength generated by both the \Hensf~coil and the Helmholtz 
     \end{tabular*}
 \end{ruledtabular}
 \end{table*}
-The work principle of the \Hensf~is based on the strong spin dependence of the neutron absorption cross section of \He nuclei.
+In this section, we describe the \Hensf~employed in the present experiment in detail.
 Neutrons with spins antiparallel to the \He nuclear spins are strongly absorbed, while those with spins parallel to the \He nuclear spins are passed through.
 Thus, neutrons are polarized by passing through the polarized \He gas.
-The two major methods for polarizing \He nuclei are spin-exchange optical pumping (SEOP) \cite{bouchiat_nuclear_1960} and metastability-exchange optical pumping (MEOP).
+The two major methods for polarizing \He nuclei are spin-exchange optical pumping (SEOP) \cite{bouchiat_nuclear_1960} and metastability-exchange optical pumping (MEOP) \cite{colegrove1963polarization}.
 In the present study, we employed the SEOP method.
 In the SEOP method, a glass cell is filled with \He, \ce{N2}, and a small amount of alkali metal.
 The cell is irradiated with circularly polarized light resonant with an optical transition of the alkali metal.
 The alkali metal electrons undergo repeated excitation and de-excitation, with \ce{N2} serving as a quenching gas to suppress radiative decay, resulting in electron spin polarization.
-Then, the polarization of the alkali metal is subsequently transferred to the \He nuclei via spin-exchange collisions, thereby achieving \He nuclear polarization.
+The polarization of the alkali metal is then transferred to the \He nuclei via spin-exchange collisions, thereby achieving \He nuclear polarization.
 The SEOP system used in this study was based on the system developed for the polarized neutron spectrometer POLANO at J-PARC MLF BL23 \cite{ino_development_2017}.
-The SEOP system and the polarization analysis coil shown in Fig.~\ref{fig:Setup} are equipped with an adiabatic fast-passage nuclear magnetic resonance (AFP-NMR) system \cite{ino_compact_2012}.
-The AFP-NMR system consists of a radio-frequency (RF) coil for flipping the \He polarization and an NMR pickup coil located bottom of the \He cell for monitoring the \He polarization.
-Two \He glass cells, named Kenji and Shimpachi, made of aluminosilicate glass (GE180) with nearly identical dimensions were used in this experiment.
-Both cells were filled with \He gas, nitrogen gas, and a mixture of alkali-metal atoms (Rb and K) for hybrid SEOP, which provides a hiher pumping efficiency than \ce{Rb}-only SEOP \cite{babcock_hybrid_2003,chen_spin-exchange_2007}.
+Both the \Hensf~coil used for polarization analysis shown in Fig.~\ref{fig:Setup}, and SEOP sytem are equipped with an adiabatic fast-passage nuclear magnetic resonance (AFP-NMR) system \cite{ino_compact_2012}.
+The AFP-NMR system consists of a radio-frequency (RF) coil for flipping the \He polarization and an NMR pickup coil located at the bottom of the \He cell for monitoring the \He polarization.
+Two cylindrical \He glass cells, named Kenji and Shimpachi, made of aluminosilicate glass (GE180) with nearly identical dimensions were used in this experiment.
+Both cells were filled with \He gas, nitrogen gas, and a mixture of alkali-metal atoms (Rb and K) for hybrid SEOP, which provides a higher pumping efficiency than \ce{Rb}-only SEOP \cite{babcock_hybrid_2003,chen_spin-exchange_2007}.
 The details of the cell specifications are described in Table~\ref{tab:He_cell}.
-A darkroom to house the SEOP laser system was constructed in the beamline experimental area, where the \He gas was polarized.
+A darkroom to house the SEOP laser system, where the \He gas was polarized, was constructed in the 5G beamport experimental area.
 After the \He polarization reached saturation, only the \He cell was transported to the \Hensf~coil on the beamline, where neutron measurements were performed during the relaxation of the \He polarization.
 This technique is known as the \textit{ex-situ} \Hensf~method.
 Since the \He polarization decreases with time in this method, two cells were used alternately for the experiment.
@@ -271,47 +269,54 @@ While one cell was used for the polarized neutron experiment, the other was pola
 
 
 \section{Data reduction procedure including polarization correction}
+\label{sec:datareduction}
 \begin{figure*}[t]
     \centering
-    \includegraphics[width=0.8\textwidth]{figure/Procedure_v5.pdf}
+    \includegraphics[width=0.8\textwidth]{figure/Procedure_v6.pdf}
     \caption{
     Schematic diagram of the data-reduction procedure for polarization analysis using an \textit{ex-situ} \Hensf~and a 2D detector.
     Raw 2D detector data measured at different sample rotation angles $\omega$ and times $t$ are corrected using the time-dependent neutron polarization $P_n(t_i)$ and transmission $T_n(t_i)$.
     The detector coordinates (X,Y) and sample rotation angle $\omega$ are converted to $Q_x,Q_y,Q_z,$ and then transformed to $H,K,L$ using the UB matrix.
-    The corrected three-dimensional reciprocal-space data can then be sliced on an arbitrary plane.
+    The corrected three-dimensional reciprocal-space data can then be sliced along an arbitrary plane.
     }
     \label{fig:procedure}
 \end{figure*}
 
 % 図と対応させて3stepで話を展開する。
-Figure~\ref{fig:procedure} shows the data acquisition and reduction procedure used to obtain polarization-analysis results for magnetic reflections distributed throughout three-dimensional reciprocal space.
-When the sample rotation angle was fixed at $\omega= \omega_n$, we measured a pair of 2D intensity maps for the non-spin-flip and spin-flip configurations by flipping the \He polarization.
-As shown in Fig.\ref{fig:procedure}, we define the midpoint times of the two successive measurements as $t_{2n-1}$ and $t_{2n}$, respectively.
+Figure~\ref{fig:procedure} shows the procedure for data acquisition, reduction, and polarization correction in the present study.
+At a sample rotation angle of $\omega=\omega_n$, we measured a pair of 2D intensity maps corresponding to non-spin-flip and spin-flip scattering by flipping the \He polarization.
 % $t_{2n-1}$ and $t_{2n}$ are the central measurement times for the pair of $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$, respectively.
-The observed scattering intensities at a detector pixel $(x_i, y_j)$ are expressed as
+We refer to the observed intensities measured when the polarizations of the neutron and \He nuclei are parallel and antiparallel to each other as $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$, respectively.
+They depend on the position of the detector pixels, the polarizations and transmissions of the polarizer and the analyzer.
+Here, the measurement time of an intensity map (20 min) was sufficiently shorter than the relaxation time of the \Hensf, and thus the transmission and polarization of \Hensf\ can be approximated by their values at the midpoint time of the measurement.
+As shown in Fig.~\ref{fig:procedure}, we define the midpoint times of the two successive measurements as $t_{2n-1}$ and $t_{2n}$, respectively.
+Thus, the intensities observed at the pixel located at $(x_i, y_j)$ are described as
 \begin{widetext}
     \begin{align}
-        I^{++}_\mathrm{obs}(\omega_n,t_{2n-1}, x_i,y_j) &= \frac{T_pT_a(t_{2n-1})}{2}\left[\left(1+ P_pP_a(t_{2n-1})\right)I^{++}(\omega_n, x_i,y_j)+\left(1- P_pP_a(t_{2n-1})\right)I^{+-}(\omega_n, x_i,y_j)\right]+\mathrm{BG}(x_i,y_j),
+        I^{++}_\mathrm{obs}(\omega_n,t_{2n-1}, x_i,y_j) &= \frac{T_pT_a(t_{2n-1})}{2}\biggl[\left(1+ P_pP_a(t_{2n-1})\right)I^{++}(\omega_n, x_i,y_j) \notag\\
+        &+\left(1- P_pP_a(t_{2n-1})\right)I^{+-}(\omega_n, x_i,y_j)\biggr]+\mathrm{BG}(x_i,y_j),
         \label{eq:int_obs_pp}\\
-        I^{+-}_\mathrm{obs}(\omega_n,t_{2n}, x_i,y_j) &= \frac{T_pT_a(t_{2n})}{2}\left[\left(1- P_pP_a(t_{2n})\right)I^{++}(\omega_n, x_i,y_j)+\left(1+ P_pP_a(t_{2n})\right)I^{+-}(\omega_n, x_i,y_j)\right]+\mathrm{BG}(x_i,y_j),
+        I^{+-}_\mathrm{obs}(\omega_n,t_{2n}, x_i,y_j) &= \frac{T_pT_a(t_{2n})}{2}\biggl[\left(1- P_pP_a(t_{2n})\right)I^{++}(\omega_n, x_i,y_j) \notag\\
+        &+\left(1+ P_pP_a(t_{2n})\right)I^{+-}(\omega_n, x_i,y_j)\biggr]+\mathrm{BG}(x_i,y_j),
         \label{eq:int_obs_pm}
     \end{align}
 \end{widetext}
 where $I^{++}(\omega_n,x_i,y_j)$ and $I^{+-}(\omega_n,x_i,y_j)$ are the ideal non-spin-flip and spin-flip scattering intensities, respectively.
-Here, we assume an antiferromagnet in which nuclear and magnetic reflections are separated from each other.
-Under this condition, we can impose the conditions of $I^{++} = I^{--}$ and $I^{+-} = I^{-+}$, and simplify the equations regarding the effect of imperfection of polarization described in Appendix A.
-We also note that the chiral magnetic scattering, which depends on the sign of the incident neutron polarization direction, is negrisible because neutron polarization and scattering vector are nearly perpendicular each other \cite{}.%blumeの論文を引っ張ってくる.
+Here, we assume that the sample is an antiferromagnet in which nuclear and magnetic reflections are separated from each other.
+Thus, we can impose the conditions of $I^{++} = I^{--}$ and $I^{+-} = I^{-+}$, and can simplify the equations regarding the effect of imperfect polarization described in Appendix A.
+We also note that the chiral magnetic scattering, which depends on the sign of the incident neutron polarization direction, is neglisible because neutron polarization and scattering vector are nearly perpendicular to each other \cite{blume_polarization_1963}. %blumeの論文を引っ張ってくる.
 $T_p$ and $T_a(t)$ are the neutron transmissions of the Heusler polarizer and \Hensf, respectively.
+Although the Heusler polarizer selects the neutron polarization by Bragg reflection rather than by direct transmission, here $T_p$ denotes the overall fraction of neutrons obtained through the Heusler polarizer, which does not depend on time.
 $P_p$ and $P_a(t)$ are the neutron polarizations of the Heusler polarizer and \Hensf, respectively.
-$\mathrm{BG}(x_i,y_j)$ is the background intensity at detetor pixel $(x_i, y_i)$.
-In the present experiment, the background signals were mainly due to imperfect shielding of the detctor and neutron flight path.
-Thus, we assumed that the background signals are independent of time, \He polarization and the sample rotation angle $\omega$.
-We repeated these measurements with varying the sample rotation angle $\omega$.
+$\mathrm{BG}(x_i,y_j)$ is the background intensity at the detector pixel $(x_i, y_j)$.
+In the present experiment, the background signals were mainly due to imperfect shielding of the detector and neutron flight path.
+Thus, we assumed that the background signals are independent of time, \He polarization and the sample rotation angle $\omega$. %
+To measure the background data, we set the $\omega$ angle so as to avoid measuring any Bragg reflections from the sample, and obtained $\mathrm{BG}(x_i,y_j)$.
+We repeated the measurements of $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$ while varying the sample rotation angle $\omega$.
 
-Before converting the data into the intensity distribution in the reciprocal space, we applied the polarization correction to the observed intensity maps taking into account of the relaxation of \He polarization in the \textit{ex-situ}  \Hensf.
 % In the \textit{ex-situ} \Hensf, both the neutron polarization and transmission decrease with time as the \He polarization relaxes.
 % Therefore, the paired intensities $I^{++}_\mathrm{obs}(\omega_n,t_{2n-1})$ and $I^{+-}_\mathrm{obs}(\omega_n,t_{2n})$ are affected differently by the time-dependent polarization and transmission.
-Solving Eqs.~\ref{eq:int_obs_pp} and \ref{eq:int_obs_pm} for $I^{++}$ and $I^{+-}$ gives
+By solving Eqs.~\ref{eq:int_obs_pp} and \ref{eq:int_obs_pm} for $I^{++}$ and $I^{+-}$, we obtain the equations of the polarization correction for the dataset measured at $\omega=\omega_n$ as follows:
 \begin{widetext}
     \begin{align}
         I^{++}(\omega_n,x_i,y_j) =&
@@ -337,26 +342,23 @@ Solving Eqs.~\ref{eq:int_obs_pp} and \ref{eq:int_obs_pm} for $I^{++}$ and $I^{+-
         \label{eq:int_corr}
     \end{align}
 \end{widetext}
-We applied these corrections to all the pixels using the pairs of 2D intensity maps.
+As we show later, we also experimentally determined the polarizations of the polarizer and the analyzer, $P_p$ and $P_a(t)$, and the transmission of the analyzer, $T_a(t)$, including the temporal decay of the \He polarization.
+Since $T_p$ is time-independent, it was instead treated as a constant scale factor.
+Substituting all the parameters into the equations above, we corrected the effect of imperfect polarization for all the pixels.
 
 % In this way, time-independent scattering intensity data are obtained.
-Finally, we convert the detector coordinates and sample rotation angle ($x_i,y_j, \omega_n$) into reciprocal-space coordinates $(Q_x,Q_y,Q_z)$.
+Finally, we converted the detector coordinates and sample rotation angle ($x_i,y_j, \omega_n$) into reciprocal-space coordinates $(Q_x,Q_y,Q_z)$.
 % A three-dimensional dataset is then constructed by converting the detector coordinates and sample rotation angle into reciprocal-space coordinates $(Q_x,Q_y,Q_z)$.
-The resulting data are further transformed into $(H,K,L)$ coordinates using the UB matrix, allowing the intensity distribution to be sliced along an arbitrary plane in reciprocal space.
-
-%Q空間への転換
-% このようにして時間依存しない散乱強度データを得ることができたので、これらを逆空間座標へ転換することで3次元的なデータを得ることできる。
-% サンプルの向きと照らし合わせ任意の方向からデータを切り出すことができる。
-% After correcting for the time-dependence of the polarization $P_n(t)$ and the transmission $T_n(t)$, the detector coordinates and sample rotation angle were then transformed into reciprocal-space coordinates.
-% This transformation allows the polarization-analysis data to be obtained at arbitrary points in reciprocal space.
+The resulting data were further transformed into $(H,K,L)$ coordinates using the UB matrix, allowing the intensity distribution to be sliced along an arbitrary plane in reciprocal space.
 
 \section{Results}
 \subsection{Evaluation of \He neutron spin filter from nuclear scattering}
+\label{sec:He-3}
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{figure/raw_data_v9.pdf}
-    \caption{(a) Observed non-spin-flip ($I^{++}_\mathrm{obs}$), (b) spin-flip ($I^{+-}_\mathrm{obs}$), and (c) unpolarized ($I^\mathrm{unpol}_\mathrm{obs}$) intensity maps, showing only the analyzing region.
-    (d) Line profile along the $x$ direction, obtained by integrating the intensity within the dashed regions in (a), (b), and (c).
+    \includegraphics[width=\columnwidth]{figure/raw_data_v11.pdf}
+    \caption{(a) Observed non-spin-flip ($I^{++}_\mathrm{obs}$), and (b) spin-flip ($I^{+-}_\mathrm{obs}$), showing only the analyzing region.
+    (c) Line profile along the $x$ direction, obtained by integrating the intensity within the dashed regions in (a) and (b).
     }
     \label{fig:rawdata}
 \end{figure}
@@ -366,178 +368,163 @@ The resulting data are further transformed into $(H,K,L)$ coordinates using the 
     \caption{
         Time dependence of the \He polarization, neutron polarization, and neutron transmission.
         The open circles show the \He polarization determined from the intensity of the $\bar{1}02$ nuclear reflection, while the closed circles show the \He NMR signal.
-        The red line represents the fitting result using an exponential decay function.
-        The dashed and dot-dashed lines indicate the calculated neutron polarization and transmission, respectively, obtained from the \He polarization.
+        The red line represents the fitting result for  the NMR signal using an exponential decay function.
+        The dashed and broken lines indicate the calculated neutron polarization and transmission, respectively, obtained from the \He polarization.
         }
         \label{fig:pol_trans_decay}
-    \end{figure}
-    \begin{figure}
-        \centering
-        \includegraphics[width=\columnwidth]{figure/Polarization_correction_v6.pdf}
-        \caption{The measured intensity of the $\bar{1}02$ reflection integrated over the peak region identified on the 2D detector while scanning the sample rotation angle $\omega$.
-        (a) Raw data, where the red and blue symbols represent the non-spin-flip intensity $I^{++}_\mathrm{obs}$ and spin-flip intensity $I^{+-}_\mathrm{obs}$, respectively.
-        (b) Corrected data, where the red and blue symbols represent the corrected non-spin-flip and spin-flip scattering cross sections, $\Sigma^{++}_\mathrm{obs}$ and $\Sigma^{+-}_\mathrm{obs}$, respectively.}
-        \label{fig:polcorrection}
-    \end{figure}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{figure/Polarization_correction_v9.pdf}
+    \caption{
+    (a) Raw data, obtained by integrating the intensity over the peak region on the 2D detector while scanning the sample rotation angle $\omega$. The red and blue symbols represent the non-spin-flip intensity $\mathcal{I}^{++}_\mathrm{obs}$ and spin-flip intensity $\mathcal{I}^{+-}_\mathrm{obs}$, respectively.
+    (b) Corrected data along the $(H,0,2)$ line, obtained after converting the raw data into reciprocal-space coordinates. The red and blue symbols represent the corrected non-spin-flip and spin-flip scattering intensities, $I^{++}(H,K,L)$ and $I^{+-}(H,K,L)$, respectively.
+    }
+    \label{fig:polcorrection}
+\end{figure}
 
-    \label{sec:He-3}
-    % 3He 偏極度の時間依存性を調べるために核反射による見積もりを行った。
-    \He polarization is usually evaluated by measuring the transmission of a neutron beam through the \He cell.
-    However, the \He cell cannot be placed in the direct path of the neutron beam in this experiment because of the detector's sensitivity.
-    Therefore, the \He polarization was evaluated from the nuclear Bragg peak intensity.
-    The neutron transmission $T_a(t)$, the neutron polarization $P_a(t)$, and the \He polarization $P_\mathrm{He}(t)$ are given by the following equations \cite{coulter_neutron_1990}:
-    \begin{align}
-        T_a(t) &= T_\mathrm{cell}\exp(-\mathcal{O}(\lambda))\cosh(\mathcal{O}(\lambda)P_\mathrm{He}(t)),
-        \label{eq:transmission_3He}\\
-        P_a(t) &= \tanh(\mathcal{O}(\lambda)P_\mathrm{He}(t)),
-        \label{eq:pol_n3He}\\
-        P_\mathrm{He}(t) &= P_\mathrm{He,0} \exp(-t/\tau),
-        \label{eq:pol_3He}
-    \end{align}
-    Here, $T_\mathrm{cell}$ is the transmission of the \He glass cell.
-    $\mathcal{O}$ is the opacity of \He cell, defined as $\mathcal{O} = \rho d \sigma$.
-    $\rho$ is the number density of \He, and $d$ is the \He gas thickness.
-    $\sigma(\lambda)$ is the neutron absorption cross section of unpolarized \He.
-    $P_{\mathrm{He},0}$ is the initial polarization at $t=0$, and $\tau$ is the relaxation time.
-    According to the literature, the $\sigma(\lambda)$ at $\lambda = 2.36\ \textrm{\AA}$ is $6992~\textrm{barn}$ \cite{passell_measurement_1966}.
+The \He polarization was evaluated by measuring a nuclear Bragg peak.
+Specifically, we selected the $\bar{1}02$ reflection, which has a similar scattering angle to that of the magnetic reflections of interest.
+The neutron transmission $T_a(t)$, the neutron polarization $P_a(t)$, and the \He polarization $P_\mathrm{He}(t)$ are given by the following equations \cite{coulter_neutron_1990}:
+\begin{align}
+    T_a(t) &= T_\mathrm{cell}\exp(-\mathcal{O}(E_n))\cosh(\mathcal{O}(E_n)P_\mathrm{He}(t)),
+    \label{eq:transmission_3He}\\
+    P_a(t) &= \tanh(\mathcal{O}(E_n)P_\mathrm{He}(t)),
+    \label{eq:pol_n3He}\\
+    P_\mathrm{He}(t) &= P_\mathrm{He,0} \exp(-t/\tau),
+    \label{eq:pol_3He}
+\end{align}
+Here, $T_\mathrm{cell}$ is the transmission of the \He glass cell.
+$\mathcal{O}$ is the opacity of the \He cell, defined as $\mathcal{O} = \rho d \sigma(E_n)$.
+$\rho$ is the number density of \He, and $d$ is the \He gas thickness.
+$\sigma(E_n)$ is the neutron absorption cross section of unpolarized \He.
+$P_{\mathrm{He},0}$ is the initial polarization at $t=0$, and $\tau$ is the relaxation time.
+According to the literature, $\sigma(E_n)$ at $E_n = 14.7\ \textrm{meV}$ is $6992~\textrm{barn}$ \cite{passell_measurement_1966}.
 
-    First, the gas thickness $\rho d$ of each cell was determined by measuring a nuclear Bragg reflection.
-    In the present measurement, we selected the $\bar{1}02$ reflection which has a simillar scattering angle to that of the magnetic reflections of interest.
-    % I^{unpol}の測定でやったことを記述する。
-    Before polarizing \He by SEOP, we measured the nuclear peak at $\omega$ which satisfy the Bragg condition through the unpolarized \He cell.
-    From the intensity map, we extracted a box-integrated intensity near the peak.
-    By subtlacting the baclground signals estimated from the intensities in the surrounding the pixels, we obtained the integrated intensity of the Bragg reflection, $\mathcal{I}_\mathrm{obs}^\mathrm{unpol}$.
-    By using eqs \ref{eq:int_obs_pp}, \ref{eq:transmission_3He}, \ref{eq:pol_3He} and $P_\mathrm{He}=0$, $\mathcal{I}_\mathrm{obs}^\mathrm{unpol}$ is expressed as follows.
-    \begin{equation}
-        \mathcal{I}^\mathrm{unpol}_\mathrm{obs}
-        =\sum_{(i,j)\in R}
-        \left(
-        \frac{T_p}{2}
-        T_\mathrm{cell}
-        \exp[-\mathcal{O}(\lambda)]
-        I^{++}(x_i,y_j)
-        % +\mathrm{BG}(x_i,y_j)
-        \right).
-    \end{equation}
-    where $R$ denotes the box-integrated region.
-    Note that the nuclear Bragg reflection contains only the non-spin-flip scattering intensity, and thus $I^{+-} = 0$.
-    % The transmission through the unpolarized \He cell, $T_\mathrm{cell}\exp[-\mathcal{O}(\lambda)]$, is obtained from Eq.~\ref{eq:transmission_3He} by setting $P_\mathrm{He}=0$.
-    The same measurement was performed using an empty cell with the same dimensions as the \He glass cell to obtain $\mathcal{I}^\mathrm{empty}_\mathrm{obs}$, where the transmission term $T_\mathrm{cell}\exp[-\mathcal{O}(\lambda)]$ is replaced by $T_\mathrm{cell}$.
-    Then, taking the ratio $\mathcal{I}^\mathrm{unpol}_\mathrm{obs}/\mathcal{I}^\mathrm{empty}_\mathrm{obs}$ allows the gas thickness $\rho d$ to be determined.
-    % Note that the background intensity $\mathrm{BG}(x_i,y_j)$ was estimated from the data at sample rotation angles away from the Bragg condition.
-    As a result, the $\rho d$ values of the Kenji and Shimpachi cells were determined to be $18.5 \pm 0.5~\mathrm{amg\,cm}$ and $18.8 \pm 0.4~\mathrm{amg\,cm}$, respectively.
-    % ↑もうちょっと簡略化させて一文で書けるかも。
-
-    % The summation is taken over the rectangular peak region on the detector.
-    % Since an empty cell has zero opacity, the ratio of the nuclear Bragg intensities measured with the \He cell and the empty cell is given by $\exp(-\rho d \sigma(\lambda))$.
-    % As a result, the $\rho d$ of Kenji cell and Shimpachi cell were deterimined by $18.5 \pm 0.5\ \textrm{amg cm}$ and $18.8 \pm 0.4\ \textrm{amg cm}$, respectively.
-
-    Second, the $P_\mathrm{He}(t)$ was determined.
-    After polarizing the \He by SEOP, the \He cell was transported to the beamline, and then the $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$ of the nuclear reflection were measured.
-    As shown in Fig.~\ref{fig:rawdata}, we clearly observed the nuclear Bragg peak in the non-spin flip channel.
-    Note that the peak in Fig.~\ref{fig:rawdata}(a) shows the tiny splitting because of the mosaicity of the single crystal sample.
-    Here, we defined the time origin ($t=0$) as the center of the measurement times of $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$.
-    Since these measurement times was much shorter than the \He relaxation time, both intensities were assumed to be measured at the same \He polarization.
-    From Eqs.~\ref{eq:int_obs_pp}, \ref{eq:int_obs_pm}, and \ref{eq:transmission_3He}, the \He polarization $P_\mathrm{He}(t)$ at $t=0$ ($P_\mathrm{He,0}$) satisfies following relationship:
-    \begin{align}
-        \frac{\mathcal{I}^{++}_\mathrm{obs}(t=0)+\mathcal{I}^{+-}_\mathrm{obs}(t=0)}{\mathcal{I}^\mathrm{unpol}_\mathrm{obs}} = 2\cosh(\mathcal{O}(\lambda)P_\mathrm{He,0}).
-        \label{eq:transmission_ratio}
-    \end{align}
-    When deriving this equation, we exploited the fact that the scattering cross section of the nuclear reflection contains only the non-spin-flip scattering component.
-    Using the measured intensities in Eq.~\ref{eq:transmission_ratio}, the initial \He polarization of the Shimpachi cell was determined to be $P_\mathrm{He,0}=0.81\pm0.05$.
-
-    % We determined the $P_\mathrm{He,0}$ by substituting the measured intensities into equation~\ref{eq:transmission_ratio}, right after exchanging the \He cell.
-The decay of the \He polarization was determined from the NMR signal of the \Hensf.
-Throughout the experiment, the NMR signal was recorded during each magnetic scattering measurement at every $\omega$ angle.
-Figure~\ref{fig:pol_trans_decay} shows the time evolution of the \He polarization of Shimpachi cell determined from the nuclear reflection (open circles) and the NMR signal (closed circles).
-The relaxation time $\tau$ was estimated by fitting the NMR signal with Eq.~\ref{eq:transmission_ratio}, yielding $\tau = 131.1 \pm 0.7$ hours.
-We also measured nuclear scattering intensities several times during the magnetic scattering measurements.
-The time evolution of the nuclear reflection intensities and the NMR signal showed good agreement.
-As a result, the time dependence of the \He polarization $P_\mathrm{He}(t)$ was determined using these $P_\mathrm{He,0}$ and $\tau$ values, respectively.
-The same analysis was performed for each \He cell.
-% Thus, the time dependence of neutron polarization and neutron transmission of \Hensf were obtained as shown in Fig.~\ref{fig:pol_trans_decay}
-% These time-dependent values of the neutron polarization and transmission are the quantities required for the polarization correction.
-
-
-% This measurement was performed every exchange of the \He cell.
-% Note that the scattering cross section of the nuclear reflection non-spin-flip scattering,
-% The \He polarization $P_\mathrm{He}(t)$ at the measurement time can be determined from these equations.
-% The \He gas thickness $\rho d$ was determined from the transmission ratio between the \He cell and an empty cell of the same size.
-% Note that the amagat is a non-SI unit of the volumetric number density of an ideal gas at 0 $^{\circ}$C (273.15 K) and 1 atm (101.325 kPa), and one amagat is equivalent to $2.69\times 10^{19} /\textrm{cm}^3$.
-% Figure~\ref{fig:rawdata}(a) and (b) show 2D intensity maps of $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$, respectively, measured just after transporting the polarized \He-saturated Shimpachi cell.
-% Figure~\ref{fig:rawdata}(c) shows the corresponding unpolarized intensity map, $I^\mathrm{unpol}_\mathrm{obs}$.
-% Figure~\ref{fig:rawdata}(d) shows the projection of the peak region of these intensity maps along the $x$ axis.
-% The \He polarization was estimated by summing the peak intensities of $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$ and taking the ratio with the peak intensity of $I^\mathrm{unpol}_\mathrm{obs}$.
-% This yielded $P_\mathrm{He,0} = 0.81 \pm 0.05$ for the Shimpachi cell.
-% Nuclear scattering measurements were also performed periodically between the magnetic scattering measurements.
-% The relaxation time $\tau$ was estimated by fitting the NMR signal with Eq.~\ref{eq:transmission_ratio}, yielding $\tau = 131.1 \pm 0.7$ hours.
-% The same measurement and analysis were also performed for the Kenji cell, yielding $P_\mathrm{He,0} = 0.72 \pm 0.06$ and $\tau = 128.0 \pm 0.3$ hours.
-% Figure~\ref{fig:pol_trans_decay} also shows the neutron polarization and transmission calculated from Eq.~\ref{eq:transmission_3He} for the Shimpachi cell.
-
-
-The polarization of the Heusler polarizer, $P_p$, was also determined from the same nuclear reflection data.
-From Eqs.~\ref{eq:int_obs_pp} and \ref{eq:int_obs_pm}, the asymmetry between $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$ is given by
+First, the gas thickness $\rho d$ of each cell was determined as follows.
+Before polarizing \He by SEOP, we measured the nuclear peak through the unpolarized \He cell with $\omega$ fixed at the Bragg condition.
+From the intensity map, we extracted a box-integrated intensity near the peak.
+After subtracting the background signals, we obtained the integrated intensity of the Bragg reflection, $\mathcal{I}_\mathrm{obs}^\mathrm{unpol}$.
+By using Eqs.~\ref{eq:int_obs_pp}, \ref{eq:transmission_3He} and $P_\mathrm{He}=0$, $\mathcal{I}_\mathrm{obs}^\mathrm{unpol}$ is expressed as follows:
 \begin{equation}
-    \frac{I^{++}_\mathrm{obs}-I^{+-}_\mathrm{obs}}{I^{++}_\mathrm{obs}+I^{+-}_\mathrm{obs}} = P_pP_a(t).
+    \mathcal{I}^\mathrm{unpol}_\mathrm{obs}
+    =\sum_{(i,j)\in R}
+    \left(
+    \frac{T_p}{2}
+    T_\mathrm{cell}
+    \exp[-\mathcal{O}(E_n)]
+    I^{++}(x_i,y_j)
+    % +\mathrm{BG}(x_i,y_j)
+    \right).
 \end{equation}
-Since $P_a(t)$ is independently determined from the \He polarization, $P_p$ can be obtained from this relation.
-The average value of $P_p$ was found to be $0.86 \pm 0.06$.
+where $R$ denotes the box-integrated region.
+Note that the nuclear Bragg reflection contains only the non-spin-flip scattering intensity, and thus we can impose $I^{+-} = 0$ in Eq.~\ref{eq:int_obs_pp}.
+The same measurement was performed using an empty cell with the same dimensions as the \He glass cell, yielding $\mathcal{I}^\mathrm{empty}_\mathrm{obs}$.
+Here, the transmission term $T_\mathrm{cell}\exp[-\mathcal{O}(E_n)]$ is replaced by $T_\mathrm{cell}$.
+Then, taking the ratio $\mathcal{I}^\mathrm{unpol}_\mathrm{obs}/\mathcal{I}^\mathrm{empty}_\mathrm{obs}$, the $\rho d$ values of the Kenji and Shimpachi cells were determined to be $18.5 \pm 0.5~\mathrm{amg\,cm}$ and $18.8 \pm 0.4~\mathrm{amg\,cm}$, respectively.
+Note that the amagat is a non-SI unit of the volumetric number density of an ideal gas at 0 $^{\circ}$C (273.15 K) and 1 atm (101.325 kPa), and one amagat is equivalent to $2.69\times 10^{19} /\textrm{cm}^3$.
+
+Second, we determined $P_\mathrm{He,0}$ in Eq.~\ref{eq:pol_3He} by measuring the nuclear reflection with the polarized \He cell.
+Immediately after the \He cell was moved from the SEOP system to the beamline, we obtained the integrated intensities of the reflection with the \He polarization parallel and antiparallel to the incident neutron polarization.
+These are referred to as $\mathcal{I}^\mathrm{++}_\mathrm{obs}(t=0)$ and $\mathcal{I}^\mathrm{+-}_\mathrm{obs}(t=0)$, respectively, following the same procedure as the measurement with the unpolarized \He cell.
+Since these measurement times were much shorter than the \He relaxation time, the \He polarizations for the two measurements were assumed to be equal.
+As shown in Fig.~\ref{fig:rawdata}, we clearly observed the nuclear Bragg peak in the non-spin flip channel, while the intensity in the spin-flip channel was extremely weak.
+Note that the peak in Fig.~\ref{fig:rawdata}(a) shows a slight splitting due to the mosaicity of the single crystal sample.
+From Eqs.~\ref{eq:int_obs_pp}, \ref{eq:int_obs_pm}, and \ref{eq:transmission_3He}, the \He polarization $P_\mathrm{He}(t)$ at $t=0$ ($P_\mathrm{He,0}$) satisfies the following relationship:
+\begin{align}
+    \frac{\mathcal{I}^{++}_\mathrm{obs}(t=0)+\mathcal{I}^{+-}_\mathrm{obs}(t=0)}{\mathcal{I}^\mathrm{unpol}_\mathrm{obs}} = 2\cosh(\mathcal{O}(E_n)P_\mathrm{He,0}).
+    \label{eq:transmission_ratio}
+\end{align}
+%    When deriving this equation, we exploited the fact that the scattering cross section of the nuclear reflection contains only the non-spin-flip scattering component.
+We measured the nuclear Bragg reflection to estimate $P_\mathrm{He,0}$ each time the cell was changed.
+For instance, the initial \He polarization of the Shimpachi cell was determined to be $P_\mathrm{He,0}=0.81\pm0.05$.
+
+% We determined the $P_\mathrm{He,0}$ by substituting the measured intensities into equation~\ref{eq:transmission_ratio}, right after exchanging the \He cell.
+We then measured the relaxation of the \He polarization by tracking the NMR signal of the \Hensf, which is proportional to the \He polarization.
+Throughout the neutron diffraction measurement, the NMR signal was recorded each time the \He polarization was flipped.
+Figure~\ref{fig:pol_trans_decay} shows the time dependence of the NMR signal of the Shimpachi cell, which agrees well with Eq.~\ref{eq:pol_3He} shown by the red solid curve.
+By normalizing the NMR data to the $P_\mathrm{He}(t=0)$ determined by the measurements of the nuclear reflection, we obtained the \He polarization as a function of time. %
+The relaxation times $\tau$ for the Shimpachi and Kenji cells were determined to be $\tau = 131.1 \pm 0.7$ and $\tau = 128.4 \pm 0.3$ hours, respectively.
+We also measured the nuclear Bragg reflection several times during the experiment, confirming that the values of the \He polarization deduced from the measurements of the nuclear reflection and the NMR signal showed good agreement. %
+The time evolutions of $T_a(t)$ and $P_a(t)$ were also obtained using Eqs. \ref{eq:transmission_3He}, \ref{eq:pol_n3He} and \ref{eq:pol_3He}, as shown in Fig. \ref{fig:pol_trans_decay}.
+
+The polarization of the Heusler polarizer, $P_p$, was also determined from the integrated intensities of the nuclear reflection.
+From Eqs.~\ref{eq:int_obs_pp} and \ref{eq:int_obs_pm}, the asymmetry between $\mathcal{I}^{++}_\mathrm{obs}$ and $\mathcal{I}^{+-}_\mathrm{obs}$ after subtracting the background $BG(x_i, y_j)$ from each, is given by
+\begin{equation}
+    \frac{\mathcal{I}^{++}_\mathrm{obs}-\mathcal{I}^{+-}_\mathrm{obs}}{\mathcal{I}^{++}_\mathrm{obs}+\mathcal{I}^{+-}_\mathrm{obs}} = P_pP_a(t).
+\end{equation}
+Since $P_a(t)$ has already been determined from the \He polarization, $P_p$ can be obtained from this equation.
+The values of $P_p$ deduced from the measurements of the nuclear reflection were averaged, yielding $P_p = 0.86 \pm 0.06$.
 Note that $P_p$ includes the effects of environmental background and neutron depolarization in the guide field.
 
-The validity of the polarization correction (Eq.~\ref{eq:int_corr}) was confirmed using the $\omega$ scan of the $\bar{1}02$ reflection.
+To check the validity of the polarization correction, we measured the intensity distributions near the $\bar{1}02$ reflection while varying the $\omega$ angle.
 % Fig.6 (a)の説明→(b)の説明。
-At each $\omega$, the intensity was integrated within the peak region identified on the 2D detector (Fig.~\ref{fig:rawdata}).
-The raw intensity profiles of the $\bar{1}02$ reflection show a finite spin-flip intensity owing to the imperfect neutron polarization, as shown in Fig.~\ref{fig:polcorrection}(a).
-By applying the polarization correction using $P_a(t)$, $T_a(t)$, and $P_p$, the corrected non-spin-flip and spin-flip intensities, $I^{++}_\mathrm{corr}$ and $I^{+-}_\mathrm{corr}$, were obtained, as shown in Fig.~\ref{fig:polcorrection}(b).
-Since only the non-spin-flip scattering cross section $\Sigma^{++}$ is expected for nuclear scattering, the result indicates that the polarization correction was successfully performed.
+Figure~\ref{fig:polcorrection}(a) shows the box-integrated intensities as functions of $\omega$, without the polarization correction, when the \He polarization was parallel and antiparallel to the neutron polarization.
+A finite spin-flip intensity was observed owing to the imperfect neutron polarization. %
+Then, we applied the polarization correction to all the observed intensity maps and converted them into an intensity distribution in reciprocal space.
+Figure~\ref{fig:polcorrection}(b) shows the profiles of the corrected non-spin flip and spin flip intensities, $\mathcal{I}^{++}$ and $\mathcal{I}^{+-}$, along the $(H,0,2)$ line, which were sliced from the three dimensional data.
+Since only the non-spin-flip scattering is expected for nuclear scattering, this result indicates that the polarization correction was successfully performed.
 Details of the polarization correction are described in Appendix~\ref{appendix}.
-These values were used for the polarization correction of the magnetic scattering data.
 
 % This measurement was repeated while changing the sample rotation angle $\omega$ in steps of $0.1^\circ$.
 
 \subsection{Polarization analysis of magnetic scattering}
+
 \begin{figure*}[t]
     \centering
-    \includegraphics[width=\textwidth]{figure/Figure6_v5.pdf}
+    \includegraphics[width=\textwidth]{figure/Figure6_v7.pdf}
     \caption{
 (a) Schematic illustration of the reciprocal-space region measured in the present experiment.
 The translucent volumes labeled (b), (c) and (d), (e) indicate the regions integrated along the \(L\) direction and the \((-K/2,K,0)\) direction, respectively.
 The dashed lines along the \(-H\) direction through \(\boldsymbol{q}_3\) and \(\boldsymbol{q}_1\) indicate the line cuts shown in panels (f) and (g), respectively.
-(b), (d) Unpolarized neutron intensity maps in the \((H,K/2,-1.5)\) and \((H,0,L)\) planes, respectively.
-(c), (e) Polarization-analysis maps obtained from the difference between the corrected non-spin-flip and corrected spin-flip intensities, \(I^{++}_\mathrm{corr}-I^{+-}_\mathrm{corr}\).
-(f), (g) Line profiles of the ($I^{++}_\mathrm{corr}$) and the ($I^{+-}_\mathrm{corr}$) at \(\boldsymbol{q}_3\) and \(\boldsymbol{q}_1\), respectively.
+(b), (d) Unpolarized neutron intensity maps in the \((H,K/2,1.5)\) and \((H,0,L)\) planes, respectively.
+(c), (e) Polarization-analysis maps obtained from the difference between the corrected non-spin-flip and corrected spin-flip intensities, \(I^{++}-I^{+-}\).
+(f), (g) Line profiles of $I^{++}$ and $I^{+-}$ through \(\boldsymbol{q}_3\) (f) and \(\boldsymbol{q}_1\) (g).
 }
     \label{fig:measured_Qregion}
 \end{figure*}
 
 
-This subsection presents the polarization-analysis results for the magnetic reflections of \ce{Mn3WO6} at antiferromagnetic phase.
-First, intensity maps of antiferromagnetic reflections were measured using unpolarized neutrons and a 2D detector.
-The scattering plane was set to the \((H0L)\) plane, a conventional triple-axis setup would mainly provide a reciprocal-space map in this plane, as shown in Fig.~\ref{fig:measured_Qregion}(d).
-However, the 2D detector enables data analysis along the out-of-plane direction, as demonstrated in Fig.~\ref{fig:measured_Qregion}(b).
-Here, we can observe the three magnetic reflections $\boldsymbol{q}_1 = (0.059, 0.019, 0.5)$, and $\boldsymbol{q}_2$ and $\boldsymbol{q}_3$ correspond to threefold rotations of $\boldsymbol{q}_1$ about the $c^*$ axis.
-These $\boldsymbol{q}$ values show that $\boldsymbol{q}_1$, $\boldsymbol{q}_2$, and $\boldsymbol{q}_3$ cannot lie within a single 2D plane passing through the reciprocal-space origin (Fig.~\ref{fig:measured_Qregion}(a)).
-This highlights why three-dimensional reciprocal-space measurements are essential for capturing such magnetic structures.
-Figures~\ref{fig:measured_Qregion}(c) and \ref{fig:measured_Qregion}(e) show the polarization-analysis maps obtained from the intensity difference \(I^{++}_\mathrm{corr}-I^{+-}_\mathrm{corr}\).
-Clear positive and negative contrasts are observed at the magnetic reflection positions identified in the unpolarized intensity maps.
-In addition, to compare the spin-dependent intensities more quantitatively, line profiles along the \(H\) direction through \(\boldsymbol{q}_3\) and \(\boldsymbol{q}_1\) are shown in Figs.~\ref{fig:measured_Qregion}(f) and \ref{fig:measured_Qregion}(g), respectively.
-The relative intensities of the non-spin-flip and spin-flip components differ clearly between the two reflections.
-These polarization-analysis data provide constraints on the magnetic moment components associated with each propagation vector.
-A detailed magnetic structure analysis based on these constraints will be presented in a separate paper.
-These results indicate that the spin-dependent scattering intensities were successfully resolved for magnetic reflections distributed in three-dimensional reciprocal space.
+We applied the polarization analysis with the \Hensf~and the 2D detector to the study of magnetic structures of \ce{Mn3WO6}.
+As mentioned in the introduction, this compound displays two antiferromagnetically ordered phases.
+In this paper, we focus on the high-temperature phase and show the data measured at 23 K.
+A more detailed study, including the low-temperature phase, will be published elsewhere [Ref. Osawa].
+First, we determined the $q$-vector of the magnetic order by unpolarized neutron diffraction measurements with the 2D detector.
+The horizontal scattering plane was set to be the $(H,0,L)$ plane.
+We measured the intensity maps while rotating the $\omega$ angle, and converted the data into reciprocal space.
+Figure ~\ref{fig:measured_Qregion}(d) shows the intensity distribution projected onto the $(H,0,L)$ plane.
+We observed two incommensurate reflections near $(\bar{1},0,1.5)$.
+To investigate the position of the reflections in more detail, we show the intensity distribution on the $(H,K,1.5)$ plane, which is perpendicular to the horizontal plane, as shown in Figs.~\ref{fig:measured_Qregion}(a) and \ref{fig:measured_Qregion}(b).
+This reveals three incommensurate peaks surrounding the $(\bar{1},0,1.5)$.
+One of the reflections (labeled $q_1$ in Fig.~\ref{fig:measured_Qregion}(b)) can be indexed using the $q$-vector $\boldsymbol{q}_1 = (0.059, 0.019, 0.5)$.
+Considering the fact that the crystal structure has threefold rotational symmetry about the $c$ axis, the other two reflections can also be indexed using $\boldsymbol{q}_2$ and $\boldsymbol{q}_3$ obtained by the threefold rotations of $\boldsymbol{q}_1$ about the $c^*$ axis.
+Note that the unequal distribution of the magnetic intensities would be due to the orientations of the Fourier-transformed magnetic moments with respect to the direction of the scattering vector.
+We emphasize here that $\boldsymbol{q}_1$, $\boldsymbol{q}_2$, and $\boldsymbol{q}_3$ cannot lie within a single 2D plane passing through the reciprocal-space origin as shown in Fig.~\ref{fig:measured_Qregion}(a).
+This highlights the importance of three-dimensional reciprocal-space measurements for elucidating such complex incommensurate magnetic structures. %
 
+We thus measured the spin-flip and non-spin-flip intensity distributions around $(\bar{1},0,1.5)$ using the \Hensf.
+Figures~\ref{fig:measured_Qregion}(c) and \ref{fig:measured_Qregion}(e) show the intensity difference \(I^{++}-I^{+-}\) mapped onto the $(H,K,1.5)$ and $(H,0,L)$ planes, respectively.
+We clearly observed that the difference in intensity takes positive and negative values for the reflections $\boldsymbol{q}_1$ and $\boldsymbol{q}_3$, respectively.
+To compare the spin-dependent intensities more quantitatively, line profiles along the \(H\) direction through \(\boldsymbol{q}_3\) and \(\boldsymbol{q}_1\) are shown in Figs.~\ref{fig:measured_Qregion}(f) and \ref{fig:measured_Qregion}(g), respectively.
+At the reflection corresponding to $\boldsymbol{q}_3$, we found that the magnetic scattering intensity was dominated by spin-flip scattering.
+Since the neutron polarization is parallel to the $z$ axis shown in Fig.~\ref{fig:measured_Qregion}(a), the spin-flip scattering is attributed to the Fourier-transformed magnetization component on the $xy$ plane, which includes the $a^*$ and $c^*$ axes. %
+At the reflection corresponding to $\boldsymbol{q}_1$, we should observe the Fourier components rotated by 120$^{\circ}$ about the $c$ axis.
+If the magnetic structure has only the $c$ component of the magnetic moments, the reflection corresponding to $\boldsymbol{q}_1$ is also dominated by the spin-flip scattering.
+However, the observed data show that the non-spin-flip scattering, which is attributed to the $z$ component of the Fourier-transformed magnetization, is stronger for the $\boldsymbol{q}_1$ reflection. %
+This unequivocally demonstrates that the magnetic structure has a finite spin component perpendicular to the $c$ axis. %
+By combining the data measured in other regions of reciprocal space, the magnetic structure was determined to be an oblique sinusoidal magnetic structure [Ref. Osawa]. %
+The present results demonstrated that polarized neutron scattering with a \He cell and a 2D detector is quite useful for solving complex incommensurate magnetic structures.
 
 \section{Summary and Outlook}
-In this work, we developed a polarization analysis method that combines \Hensf~with a 2D detector to analyze arbitrary reciprocal-lattice points distributed in three-dimensional reciprocal space.
-We demonstrated a correction procedure for the time-dependent neutron polarization and transmission using a nuclear Bragg reflection and confirmed its validity.
-Polarization analysis was successfully performed for the incommensurate magnetic reflections of \ce{Mn3WO6} at antiferromagnetic phase, and the details of the magnetic structure will be reported in a separate paper.
-The positions of the \Hensf~and the 2D detector were fixed in the present experiment, whereas a configuration in which both devices are mounted on a scanning arm is planned to cover a wider region of reciprocal space.
-Although the present \textit{ex-situ} method requires time-dependent correction, \textit{in-situ} method unnecessary the time-dependent correction because SEOP is performed continously throughout the measurement on the beampath.
-Recently, a compact \textit{in-situ} \Hensf~system has been developed at J-PARC, which can be mounted on a scanning detector arm\cite{takahashi_development_2025}.
+In this work, we demonstrated polarized neutron diffraction measurements combining the \Hensf~and the 2D detector to explore three-dimensional reciprocal space.
+We established the correction procedure for the time-dependent neutron polarization and transmission using a nuclear Bragg reflection and the NMR signal, and confirmed its validity.
+The polarization analysis for the incommensurate magnetic reflections of \ce{Mn3WO6} was successfully performed, highlighting its importance for magnetic reflections outside the horizontal plane.
+Although the present \textit{ex-situ} method requires time-dependent correction, it is possible to upgrade it to an \textit{in-situ} SEOP method.
+In fact, a compact \textit{in-situ} \Hensf~system has been recently developed at J-PARC\cite{takahashi_development_2025}.
 This implementation is expected to maintain high neutron polarization and transmission throughout the experiment, thereby facilitating polarization analysis of complex magnetic structures over a wider region of reciprocal space and for a broader range of materials.
 
 \begin{acknowledgments}
-We thank Mr. Ohkawara (Tohoku Univ.) for his kind support in operating the SEOP laser system in the experimental area.
+We thank Mr. Ohkawara (Tohoku University) for his kind support in operating the SEOP laser system in the 5G beamport experimental area.
 This work was supported by JSPS KAKENHI Grant Number 25KJ0050.
 \end{acknowledgments}
 
@@ -546,30 +533,33 @@ This work was supported by JSPS KAKENHI Grant Number 25KJ0050.
 \label{appendix}
 In this section, the polarization correction in the present experimental setup is described.
 This correction is based on the polarization matrix reported by A. Wildes \cite{wildes_polarizer-analyzer_1999,wildes_scientific_2006}.
-A spin-dependent measured count for the non-spin flip configuration ($I^{++}_\mathrm{obs}$) is expressed as follows:
+A count obtained when both the polarizer and the analyzer are set to the spin-up state ($I^{++}_\mathrm{obs}$) is expressed as the sum of the contributions from the four scattering channels:
 \begin{align}
-    I^{++}_\mathrm{obs} &= N_0 T_p p_p \Sigma^{++} T_a p_a \notag \\
-    &+ N_0 T_p p_p \Sigma^{+-} T_a (1-p_a) \notag\\
-    &+N_0 T_p (1-p_p) \Sigma^{-+} T_a p_a \notag \\
-    &+ N_0 T_p (1-p_p) \Sigma^{--} T_a (1-p_a),
+    I^{++}_\mathrm{obs} &= N_0 T_p p_p I^{++} T_a p_a \notag \\
+    &+ N_0 T_p p_p I^{+-} T_a (1-p_a) \notag\\
+    &+N_0 T_p (1-p_p) I^{-+} T_a p_a \notag \\
+    &+ N_0 T_p (1-p_p) I^{--} T_a (1-p_a).
     \label{eq:Ipp}
 \end{align}
-Here, $N_0$ is the total number of incident neutrons, assumed to include equal populations of the ($+$) and ($-$) spin states.
+Here, $N_0$ is the total number of incident neutrons, usually normalized by the counting time or monitor counts.
+It is assumed to include equal populations of the ($+$) and ($-$) spin states.
 $T_p$ and $T_a$ are the total neutron transmissions of the polarizer and analyzer, respectively.
 $p_p$ and $p_a$ are the polarization efficiencies of the polarizer and analyzer, respectively.
-$\Sigma^{++}$, $\Sigma^{+-}$, $\Sigma^{-+}$, and $\Sigma^{--}$ are the scattering cross sections for the corresponding spin states.
+$I^{++}$, $I^{+-}$, $I^{-+}$, and $I^{--}$ are the scattering intensities for the corresponding spin states.
 The derivation of this equation is schematically illustrated in Fig.~\ref{fig:appendix}.
 The polarization efficiencies $p_p$ and $p_a$ are defined within the ranges $0.5 \leq p_p \leq 1$ and $0.5 \leq p_a \leq 1$.
-In the present experimental setup, only the $I^{++}$ and the $I^{+-}$ configurationscan can be measured.
-The chiral contribution and the nuclear-magnetic interference term are assumed to be negligible, such that the scattering cross sections satisfy $\Sigma^{++} = \Sigma^{--}$ and $\Sigma^{+-} = \Sigma^{-+}$.
-Under these assumptions, Eq.~\ref{eq:Ipp} can be rewritten into the following matrix form that includes the spin flip configuration:
+
+In the present experimental setup, only the $I^{++}_\mathrm{obs}$ and the $I^{+-}_\mathrm{obs}$ configurations can be measured.
+As also noted in Sec.~\ref{sec:datareduction}, the sample is an antiferromagnet and its nuclear and magnetic reflections are separated from each other.
+Moreover, the chiral magnetic scattering, which depends on the sign of the incident neutron polarization direction, can be neglected because neutron polarization is nearly perpendicular to the scattering vector.
+With these conditions, $I^{++} = I^{--}$ and $I^{+-} = I^{-+}$ hold, and allowing Eq.~\ref{eq:Ipp} to be simplified into the following matrix form in terms of the non-spin flip and spin flip intensities.
 \begin{equation}
     \begin{bmatrix}
         I^{++}_\mathrm{obs} \\
         I^{+-}_\mathrm{obs}
     \end{bmatrix}
     =
-    N_0T_pT_a
+    T_pT_a
     \begin{bmatrix}
         p_p & 1-p_p \\
         1-p_p & p_p \\
@@ -579,21 +569,21 @@ Under these assumptions, Eq.~\ref{eq:Ipp} can be rewritten into the following ma
         1-p_a&p_a \\
     \end{bmatrix}
     \begin{bmatrix}
-        \Sigma^{++} \\
-        \Sigma^{+-}
+        I^{++} \\
+        I^{+-}
     \end{bmatrix}.
     \label{eq:Ipp_Ipm}
 \end{equation}
 
-Since the \textit{ex-situ} \Hensf~exhibits a decay of the \He polarization over time, both the neutron polarization efficiency $p_a$ and the neutron transmission $T_a$ become time-dependent.
+Since the \He polarization of the \textit{ex-situ} \Hensf~decays over time, both the neutron polarization efficiency $p_a$ and the neutron transmission $T_a$ become time-dependent.
 Accordingly, by treating Eq.~\ref{eq:Ipp_Ipm} as a time-dependent matrix equation and taking its inverse, the following expression is obtained:
 \begin{widetext}
     \begin{align}
         \begin{bmatrix}
-            \Sigma^{++} \\
-            \Sigma^{+-}
+            I^{++} \\
+            I^{+-}
         \end{bmatrix}
-        &=\frac{1}{N_0T_pP_p\left(P_a(t_1)+P_a(t_2)\right)}
+        &=\frac{1}{T_pP_p\left(P_a(t_1)+P_a(t_2)\right)}
         \begin{bmatrix}
         1+P_pP_a(t_2) & -1+P_pP_a(t_1) \\
         -1+P_pP_a(t_2) & 1+P_pP_a(t_1)
@@ -610,14 +600,17 @@ Accordingly, by treating Eq.~\ref{eq:Ipp_Ipm} as a time-dependent matrix equatio
     \end{align}
 \end{widetext}
 where $p_p$ and $p_a$ are converted to $P_p$ and $P_a$ using the relations $P_p = 2p_p -1$ and $P_a = 2p_a -1$.
-$T_a(t)$, $P_p$, and $P_a(t)$ are experimentally determined and described in Sec.~\ref{sec:He-3}.
-In the main text, $N_0$ and $T_p$ are treated as a scale factor and are absorbed into the corrected intensities $I^{+\pm}_\mathrm{corr}$.
+$T_a(t)$, $P_p$, and $P_a(t)$ are determined experimentally, as described in Sec.~\ref{sec:He-3}.
+In contrast, $T_p$ does not depend on time, as described in Sec.~\ref{sec:datareduction}.
+It was treated as a single constant scale factor and set equal to 1.
+In practice, this time-dependent correction was applied to each detector pixel.
+As a result, data collected throughout the entire measurement period could be used for the polarization analysis.
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=8.5cm]{figure/Appendix_v7.pdf}
+    \includegraphics[width=8.5cm]{figure/Appendix_v8.pdf}
     \caption{Schematic diagram of the spin-dependent neutron intensity in the present experimental setup.
-    The measured intensity $I^{++}$ is given by the sum of the contributions from the four spin-scattering channels when the Heusler crystal and the \Hensf~are both polarized in the same direction.}
+    The measured intensity $I^{++}$ is given by the sum of the contributions from the four spin-scattering channels when the Heusler polarizer and the \Hensf~are both polarized in the same direction.}
     \label{fig:appendix}
 \end{figure}
 

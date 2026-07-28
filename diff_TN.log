@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.8)  5 JUN 2026 20:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.8)  23 JUL 2026 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/takahashishingo/research/document/Papers/3HeNSF_2DPSD/NSF 2D PSD Paper/diff_20260605"
-(/Users/takahashishingo/research/document/Papers/3HeNSF_2DPSD/NSF 2D PSD Paper/diff_20260605.tex
+**"/Users/takahashishingo/research/document/Papers/3HeNSF_2DPSD/NSF 2D PSD Paper/diff_TN"
+(/Users/takahashishingo/research/document/Papers/3HeNSF_2DPSD/NSF 2D PSD Paper/diff_TN.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/revtex/revtex4-2.cls
@@ -435,8 +435,8 @@ Class revtex4-2 Info: Unrecognized array package. Please update this document cl
 Class revtex4-2 Info: cite was not loaded (OK!) on input line 148.
 Class revtex4-2 Info: mcite was not loaded (OK!) on input line 148.
 Class revtex4-2 Info: multicol was not loaded (OK!) on input line 148.
- (./diff_20260605.aux)
-\openout1 = `diff_20260605.aux'.
+ (./diff_TN.aux)
+\openout1 = `diff_TN.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
 LaTeX Font Info:    ... okay on input line 148.
@@ -479,698 +479,514 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package chemgreek Info: Activating mapping `default' on line 148.
 
 Package hyperref Info: Link coloring OFF on input line 148.
- (./diff_20260605.out) (./diff_20260605.out)
+ (./diff_TN.out) (./diff_TN.out)
 \@outlinefile=\write5
-\openout5 = `diff_20260605.out'.
+\openout5 = `diff_TN.out'.
 
 \c@lstlisting=\count319
 Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 148.
-\openout3 = `diff_20260605Notes.bib'.
+\openout3 = `diff_TNNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 218.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 209.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 218.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 209.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
+(hyperref)                removing `math shift' on input line 217.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
+(hyperref)                removing `superscript' on input line 217.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFdelincludegraphics' on input line 230.
+(hyperref)                removing `math shift' on input line 217.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
+Underfull \hbox (badness 1142) in paragraph at lines 219--233
+\OT1/cmr/m/n/10 first []|   []   |   []   |   []   |   []   |   []   |   []
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
+Underfull \hbox (badness 1048) in paragraph at lines 219--233
+\OT1/cmr/m/n/10 used for []|   []   |   []   |   []   |   []   |   []
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 230.
+Underfull \hbox (badness 1102) in paragraph at lines 234--246
+|   [][]\OT1/cmr/m/n/10 , the mag-netic mo-ments are of-ten ar-ranged
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
+Underfull \hbox (badness 5417) in paragraph at lines 234--246
+|   []   |   []   |   []   |   []   []\OT1/cmr/m/n/10 three-dimensional
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFaddincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFdelincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFaddincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFdelincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFdelincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFaddincludegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 230.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 230.
+Underfull \hbox (badness 1540) in paragraph at lines 234--246
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<figure/Figure1_v7.pdf, id=94, 869.2475pt x 637.38126pt>
-File: figure/Figure1_v7.pdf Graphic file (type pdf)
-<use figure/Figure1_v7.pdf>
-Package pdftex.def Info: figure/Figure1_v7.pdf  used on input line 260.
-(pdftex.def)             Requested size: 241.84842pt x 177.33736pt.
-
-Overfull \hbox (2.6484pt too wide) in paragraph at lines 260--261
- [][][] 
- []
-
-<figure/Scattering_Angle_v4.pdf, id=99, 947.54pt x 857.2025pt>
-File: figure/Scattering_Angle_v4.pdf Graphic file (type pdf)
-<use figure/Scattering_Angle_v4.pdf>
-Package pdftex.def Info: figure/Scattering_Angle_v4.pdf  used on input line 297.
-(pdftex.def)             Requested size: 241.84842pt x 218.78648pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 303.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 303.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 303.
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 331--360
-\OT1/cmr/m/n/10 cir-cu-larly po-lar-ized laser light po-lar-izes alkali-metal
- []
-
-[2 <./figure/Figure1_v7.pdf>]
-Underfull \hbox (badness 3209) in paragraph at lines 362--372
-[]\OT1/cmr/m/n/10 In this sec-tion, []|   []   |   []   []the re-sults of po-
+Underfull \hbox (badness 7685) in paragraph at lines 247--258
+|   []   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 362--372
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []
+Underfull \hbox (badness 5578) in paragraph at lines 247--258
+|   []   |   []   []\OT1/cmr/m/n/10 small-angle neu-tron scat-ter-ing (SANS)
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 362--372
+Underfull \hbox (badness 6708) in paragraph at lines 247--258
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 260--275
+[]\OT1/cmr/m/n/10 In []|   []   |   [][][]|   []   |   []   |   [][], we per-formed
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 260--275
+[]|   []   |   []   [][]|   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 260--275
 |   []   |   []   |   []   |   []   |   []   |   []
  []
 
+<figure/Figure1_v9.pdf, id=98, 870.25125pt x 637.38126pt>
+File: figure/Figure1_v9.pdf Graphic file (type pdf)
+<use figure/Figure1_v9.pdf>
+Package pdftex.def Info: figure/Figure1_v9.pdf  used on input line 281.
+(pdftex.def)             Requested size: 241.84842pt x 177.13312pt.
 
-Underfull \hbox (badness 1681) in paragraph at lines 362--372
-|   []   [][]|   []   |   []   |   []   |   []   |   []   |   []
+Overfull \hbox (2.6484pt too wide) in paragraph at lines 281--282
+ [][][] 
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 362--372
-[]\OT1/cmr/m/n/10 three-dimensional []|   []   |   []   |   []   |   []   |   []
+Underfull \hbox (badness 1596) in paragraph at lines 295--314
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   [][]|   []
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 362--372
-|   []   |   []   |   []   |   []   |   []   [][]|   [][] []|   []   |   []
- []
-
-
-Underfull \hbox (badness 5175) in paragraph at lines 362--372
+Underfull \hbox (badness 1546) in paragraph at lines 295--314
 |   []   |   []   |   []   |   []   |   []
  []
 
-<figure/Procedure_v2.pdf, id=149, 835.12pt x 721.69624pt>
-File: figure/Procedure_v2.pdf Graphic file (type pdf)
-<use figure/Procedure_v2.pdf>
-Package pdftex.def Info: figure/Procedure_v2.pdf  used on input line 379.
-(pdftex.def)             Requested size: 246.0pt x 212.59021pt.
+[2 <./figure/Figure1_v9.pdf>]
+<figure/Scattering_Angle_v7.pdf, id=141, 947.54pt x 941.5175pt>
+File: figure/Scattering_Angle_v7.pdf Graphic file (type pdf)
+<use figure/Scattering_Angle_v7.pdf>
+Package pdftex.def Info: figure/Scattering_Angle_v7.pdf  used on input line 325.
+(pdftex.def)             Requested size: 241.84842pt x 240.30646pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 379--380
+Overfull \hbox (2.6484pt too wide) in paragraph at lines 325--326
  [][][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 391.
+(hyperref)                removing `math shift' on input line 337.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 391.
+(hyperref)                removing `superscript' on input line 337.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFdelincludegraphics' on input line 391.
+(hyperref)                removing `math shift' on input line 337.
 
+[3 <./figure/Scattering_Angle_v7.pdf>]
+<figure/Procedure_v5.pdf, id=197, 1566.85374pt x 701.62125pt>
+File: figure/Procedure_v5.pdf Graphic file (type pdf)
+<use figure/Procedure_v5.pdf>
+Package pdftex.def Info: figure/Procedure_v5.pdf  used on input line 393.
+(pdftex.def)             Requested size: 408.00156pt x 182.69557pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFaddincludegraphics' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFaddincludegraphics' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 391.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 391.
-
-<figure/raw_data_v8.pdf, id=150, 879.285pt x 777.90625pt>
-File: figure/raw_data_v8.pdf Graphic file (type pdf)
-<use figure/raw_data_v8.pdf>
-Package pdftex.def Info: figure/raw_data_v8.pdf  used on input line 395.
-(pdftex.def)             Requested size: 246.0pt x 217.63422pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 395--396
- [][][] 
- []
-
-[3 <./figure/Scattering_Angle_v4.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix] on input line 403.
-
-
-Underfull \hbox (badness 4024) in paragraph at lines 441--454
-\OT1/cmr/m/n/10 The $[]$He gas thick-ness $\OML/cmm/m/it/10 ^^Zd$ \OT1/cmr/m/n/10 was de-ter-mined from
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 441--454
-\OT1/cmr/m/n/10 empty cell of the same size[]|   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 441--454
-|   []   |   []   |   []   [][]|   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 441--454
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-[4 <./figure/Procedure_v2.pdf> <./figure/raw_data_v8.pdf>]
-Underfull \hbox (badness 5359) in paragraph at lines 455--470
-[]\OT1/cmr/m/n/10 Figure []4[] (a,b) shows two-dimensional in-ten-sity
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 455--470
-\OT1/cmr/m/n/10 maps mea-sured just af-ter trans-port-ing the []|   []
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 455--470
-|   []   |   []   |   []   [][]|   []   |   []   |   []   []\OT1/cmr/m/n/10 in-ten-sity
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 455--470
+Underfull \hbox (badness 10000) in paragraph at lines 404--414
 |   []   |   []   |   []   |   []   |   []
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 455--470
+Underfull \hbox (badness 10000) in paragraph at lines 404--414
 |   []   |   []   |   []   |   []   |   []
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 455--470
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+Underfull \hbox (badness 2512) in paragraph at lines 404--414
+[][]|   []   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 455--470
-|   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 455--470
-|   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 455--470
-|   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 472--483
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-<figure/NMR_vs_time_20260530.pdf, id=298, 550.055pt x 405.515pt>
-File: figure/NMR_vs_time_20260530.pdf Graphic file (type pdf)
-<use figure/NMR_vs_time_20260530.pdf>
-Package pdftex.def Info: figure/NMR_vs_time_20260530.pdf  used on input line 488.
-(pdftex.def)             Requested size: 246.0pt x 181.3539pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 488--489
- [][][] 
- []
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 495--495
-|   []   |   []   |   []   []\OT1/cmr/m/n/9 and []|   []   |   []
- []
-
-<figure/Polarization_correction_v4.pdf, id=299, 792.9625pt x 415.5525pt>
-File: figure/Polarization_correction_v4.pdf Graphic file (type pdf)
-<use figure/Polarization_correction_v4.pdf>
-Package pdftex.def Info: figure/Polarization_correction_v4.pdf  used on input line 520.
-(pdftex.def)             Requested size: 246.0pt x 128.91505pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 520--521
- [][][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFdelincludegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFaddincludegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFdelincludegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFaddincludegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\includegraphics' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DIFOincludegraphics' on input line 529.
-
-<figure/Figure6_v4.pdf, id=300, 932.48375pt x 418.56375pt>
-File: figure/Figure6_v4.pdf Graphic file (type pdf)
-<use figure/Figure6_v4.pdf>
-Package pdftex.def Info: figure/Figure6_v4.pdf  used on input line 532.
-(pdftex.def)             Requested size: 483.69684pt x 217.1179pt.
-[5 <./figure/NMR_vs_time_20260530.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix] on input line 575.
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 577--588
-\OT1/cmr/m/n/10 NSF  with a two-dimensional de-tec-tor to []|   []
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 577--588
-\OT1/cmr/m/n/10 dimensional de-tec-tor were fixed in the present ex-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 592.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 592.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 592.
-
-[6 <./figure/Polarization_correction_v4.pdf>]
-<figure/Appendix_v6.pdf, id=364, 914.41624pt x 459.7175pt>
-File: figure/Appendix_v6.pdf Graphic file (type pdf)
-<use figure/Appendix_v6.pdf>
-Package pdftex.def Info: figure/Appendix_v6.pdf  used on input line 632.
-(pdftex.def)             Requested size: 241.84842pt x 121.58604pt.
-
-Overfull \hbox (2.6484pt too wide) in paragraph at lines 632--633
- [][][] 
- []
-
-[7 <./figure/Figure6_v4.pdf> <./figure/Appendix_v6.pdf>]
-Overfull \hbox (182.47517pt too wide) detected at line 696
+Overfull \hbox (21.70737pt too wide) detected at line 420
 []
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 709--725
+Underfull \hbox (badness 6893) in paragraph at lines 434--440
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 476.
+
+<figure/raw_data_v9.pdf, id=213, 794.97pt x 796.9775pt>
+File: figure/raw_data_v9.pdf Graphic file (type pdf)
+<use figure/raw_data_v9.pdf>
+Package pdftex.def Info: figure/raw_data_v9.pdf  used on input line 481.
+(pdftex.def)             Requested size: 246.0pt x 246.62267pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 481--482
+ [][][] 
+ []
+
+<figure/NMR_vs_time_20260530.pdf, id=214, 550.055pt x 405.515pt>
+File: figure/NMR_vs_time_20260530.pdf Graphic file (type pdf)
+<use figure/NMR_vs_time_20260530.pdf>
+Package pdftex.def Info: figure/NMR_vs_time_20260530.pdf  used on input line 491.
+(pdftex.def)             Requested size: 246.0pt x 181.3539pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 491--492
+ [][][] 
+ []
+
+<figure/Polarization_correction_v6.pdf, id=215, 820.06375pt x 437.635pt>
+File: figure/Polarization_correction_v6.pdf Graphic file (type pdf)
+<use figure/Polarization_correction_v6.pdf>
+Package pdftex.def Info: figure/Polarization_correction_v6.pdf  used on input line 504.
+(pdftex.def)             Requested size: 246.0pt x 131.27815pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 504--505
+ [][][] 
+ []
+
+[5 <./figure/Procedure_v5.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 532.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 532.
+
+
+Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 566--574
+|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[6 <./figure/raw_data_v9.pdf> <./figure/NMR_vs_time_20260530.pdf> <./figure/Polarization_correction_v6.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 584--594
+|   []   [][]|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--594
+\OT1/cmr/m/n/10 Through-out the []|   [][][]|   [][], the
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 584--594
+\OT1/cmr/m/n/10 NMR sig-nal was recorded []|   []   |   []   |   []
+ []
+
+<figure/Figure6_v5.pdf, id=357, 1284.8pt x 603.25375pt>
+File: figure/Figure6_v5.pdf Graphic file (type pdf)
+<use figure/Figure6_v5.pdf>
+Package pdftex.def Info: figure/Figure6_v5.pdf  used on input line 613.
+(pdftex.def)             Requested size: 510.0pt x 239.45624pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 613--614
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 626--628
+[]\OT1/cmr/m/n/10 The po-lar-iza-tion of the Heusler po-lar-izer, $\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--628
+\OT1/cmr/m/n/10 was also de-ter-mined from the []|   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--628
+|   [][][]|   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 666--672
+[]|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 666--672
+|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 666--672
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 666--672
+|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 666--672
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 666--672
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[7]
+Underfull \hbox (badness 2368) in paragraph at lines 674--692
+[]|   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 674--692
+|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 674--692
+|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 674--692
+|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 674--692
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 674--692
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 674--692
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[8 <./figure/Figure6_v5.pdf>]
+Underfull \hbox (badness 1168) in paragraph at lines 693--709
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--709
+|   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 693--709
+|   []   |   []   []\OT1/cmr/m/n/10 Fig-ures []7[](c) and []7[](e) show the
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 693--709
+[]|   []   |   []   |   []   |   []   []\OT1/cmr/m/n/10 the in-ten-
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 693--709
+\OT1/cmr/m/n/10 and []7[](g), re-spec-tively. []|   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 693--709
 |   []   |   []   [][]|   []   |   []   |   []   |   []   |   []
  []
 
-(./diff_20260605.bbl
-Underfull \hbox (badness 4819) in paragraph at lines 60--61
+
+Underfull \hbox (badness 2073) in paragraph at lines 693--709
+|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 693--709
+|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 693--709
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--709
+|   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 693--709
+|   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 693--709
+|   []   |   [][][]|   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 693--709
+|   [][]\OT1/cmr/m/n/10 ]. []|   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 693--709
+|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 693--709
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 711--719
+\OT1/cmr/m/n/10 dimensional re-cip-ro-cal space. We []|   []   |   []
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 711--719
+[][]|   []   |   []   []\OT1/cmr/m/n/10 cor-rec-tion pro-ce-dure for the time-
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 711--719
+|   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 726.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 726.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 726.
+
+[9]
+Overfull \hbox (10.78258pt too wide) detected at line 767
+[][][][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 N[]T[]T[] [] [] [] :
+ []
+
+<figure/Appendix_v7.pdf, id=449, 884.30376pt x 470.75874pt>
+File: figure/Appendix_v7.pdf Graphic file (type pdf)
+<use figure/Appendix_v7.pdf>
+Package pdftex.def Info: figure/Appendix_v7.pdf  used on input line 801.
+(pdftex.def)             Requested size: 241.84842pt x 128.74432pt.
+
+Overfull \hbox (2.6484pt too wide) in paragraph at lines 801--802
+ [][][] 
+ []
+
+(./diff_TN.bbl
+Underfull \hbox (badness 4819) in paragraph at lines 54--55
  []\OT1/cmr/m/n/9 J. Kulda, J. []Saroun, P. Cour-tois, M. En-derle,
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 75--76
+Underfull \hbox (badness 1762) in paragraph at lines 69--70
  []\OT1/cmr/m/n/9 S. M^^?uhlbauer, B. Binz, F. Joni-etz, C. Pflei-derer,
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 81--82
+Underfull \hbox (badness 3108) in paragraph at lines 75--76
  []\OT1/cmr/m/n/9 N. Kanazawa, A. Ki-taori, J. White, V. Uk-leev,
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 90--91
+Underfull \hbox (badness 1365) in paragraph at lines 84--85
  []\OT1/cmr/m/n/9 D. Singh, Y. Fu-jishiro, S. Hayami, S. H. Moody,
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+[10 <./figure/Appendix_v7.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
  []\OT1/cmr/m/n/9 W. T. H. Lee and T. D'Adam, []Neu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
  \OT1/cmr/m/n/9 tron News \OT1/cmr/bx/n/9 27\OT1/cmr/m/n/9 , 35 (2016)[], []eprint:
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 102--103
+Underfull \hbox (badness 2302) in paragraph at lines 99--100
  []\OT1/cmr/m/n/9 T. Naka-mura, T. Kawasaki, T. Hosoya, K. Toh,
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 102--103
+Underfull \hbox (badness 1824) in paragraph at lines 99--100
  \OT1/cmr/m/n/9 K. Oikawa, K. Saka-sai, M. Ebine, A. Biru-machi,
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 102--103
+Underfull \hbox (badness 1038) in paragraph at lines 99--100
  \OT1/cmr/m/n/9 Spec-trom-e-ters, De-tec-tors and As-so-ci-ated Equip-ment
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 126--127
+Underfull \hbox (badness 5050) in paragraph at lines 123--124
  \OT1/cmr/m/n/9 R. Kobayashi, M. Okuizumi, T. Ino, K. Asai,
  []
 
-) [9] (./diff_20260605.aux)
+) [11] (./diff_TN.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `diff_20260605.out' has not changed.
-(rerunfilecheck)             Checksum: 9165DCE9F326C4DC1860FC2B0CD7FF11;2941.
+Package rerunfilecheck Info: File `diff_TN.out' has not changed.
+(rerunfilecheck)             Checksum: 215E68F627C60EB2A3B7CE4DD789BF60;3302.
  ) 
 Here is how much of TeX's memory you used:
  15030 strings out of 474116
- 236381 string characters out of 5743682
- 2090187 words of memory out of 5000000
- 37106 multiletter control sequences out of 15000+600000
+ 236123 string characters out of 5743682
+ 2115187 words of memory out of 5000000
+ 37101 multiletter control sequences out of 15000+600000
  573920 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,2173b,682s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1704b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy6.pfb>
-Output written on diff_20260605.pdf (9 pages, 1446555 bytes).
+Output written on diff_TN.pdf (11 pages, 2147727 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
- 69 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 653 PDF objects out of 1000 (max. 8388607)
+ 481 compressed objects within 5 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

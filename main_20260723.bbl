@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{31}%
+\begin{thebibliography}{26}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -49,15 +49,6 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Squires}(1996)}]{squires1996introduction}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont {Squires}},\ }\href@noop {} {\emph {\bibinfo {title} {Introduction to the theory of thermal neutron scattering}}}\ (\bibinfo  {publisher} {Courier Corporation},\ \bibinfo {year} {1996})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Mezei}(1976)}]{mezei1976novel}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Mezei}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Commun. Phys.;(United Kingdom)}\ }\textbf {\bibinfo {volume} {1}} (\bibinfo {year} {1976})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Gentile}\ \emph {et~al.}(2017)\citenamefont {Gentile}, \citenamefont {Nacher}, \citenamefont {Saam},\ and\ \citenamefont {Walker}}]{gentile2017optically}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~R.}\ \bibnamefont {Gentile}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Nacher}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Saam}},\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Walker}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Reviews of modern physics}\ }\textbf {\bibinfo {volume} {89}},\ \bibinfo {pages} {045004} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kulda}\ \emph {et~al.}(2002)\citenamefont {Kulda}, \citenamefont {Šaroun}, \citenamefont {Courtois}, \citenamefont {Enderle}, \citenamefont {Thomas},\ and\ \citenamefont {Flores}}]{kulda_in20_2002}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Kulda}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Šaroun}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Courtois}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Enderle}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Thomas}},\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Flores}},\ }\href {https://doi.org/10.1007/s003390101094} {\bibfield  {journal} {\bibinfo  {journal} {Appl Phys A}\ }\textbf {\bibinfo {volume} {74}},\ \bibinfo {pages} {s246} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
@@ -109,9 +100,6 @@
 \bibitem [{\citenamefont {Bouchiat}\ \emph {et~al.}(1960)\citenamefont {Bouchiat}, \citenamefont {Carver},\ and\ \citenamefont {Varnum}}]{bouchiat_nuclear_1960}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont {Bouchiat}}, \bibinfo {author} {\bibfnamefont {T.~R.}\ \bibnamefont {Carver}},\ and\ \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont {Varnum}},\ }\href {https://doi.org/10.1103/PhysRevLett.5.373} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {373} (\bibinfo {year} {1960})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Colegrove}\ \emph {et~al.}(1963)\citenamefont {Colegrove}, \citenamefont {Schearer},\ and\ \citenamefont {Walters}}]{colegrove1963polarization}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Colegrove}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Schearer}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Walters}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review}\ }\textbf {\bibinfo {volume} {132}},\ \bibinfo {pages} {2561} (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ino}\ \emph {et~al.}(2017)\citenamefont {Ino}, \citenamefont {Ohkawara}, \citenamefont {Ohoyama}, \citenamefont {Yokoo}, \citenamefont {Itoh}, \citenamefont {Nambu}, \citenamefont {Fujita}, \citenamefont {Kira}, \citenamefont {Hayashida}, \citenamefont {Hiroi}, \citenamefont {Sakai}, \citenamefont {Oku},\ and\ \citenamefont {Kakurai}}]{ino_development_2017}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Ino}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ohkawara}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Ohoyama}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Yokoo}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Itoh}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Nambu}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Fujita}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Kira}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Hayashida}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Hiroi}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Sakai}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Oku}},\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Kakurai}},\ }\href {https://doi.org/10.1088/1742-6596/862/1/012011} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Physics: Conference Series}\ }\textbf {\bibinfo {volume} {862}},\ \bibinfo {pages} {012011} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
@@ -124,9 +112,6 @@
 \bibitem [{\citenamefont {Chen}\ \emph {et~al.}(2007)\citenamefont {Chen}, \citenamefont {Gentile}, \citenamefont {Walker},\ and\ \citenamefont {Babcock}}]{chen_spin-exchange_2007}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~C.}\ \bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {T.~R.}\ \bibnamefont {Gentile}}, \bibinfo {author} {\bibfnamefont {T.~G.}\ \bibnamefont {Walker}},\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Babcock}},\ }\href {https://doi.org/10.1103/PhysRevA.75.013416} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review A}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo {pages} {013416} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Blume}(1963)}]{blume_polarization_1963}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Blume}},\ }\href {https://doi.org/10.1103/PhysRev.130.1670} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review}\ }\textbf {\bibinfo {volume} {130}},\ \bibinfo {pages} {1670} (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Coulter}\ \emph {et~al.}(1990)\citenamefont {Coulter}, \citenamefont {Chupp}, \citenamefont {McDonald}, \citenamefont {Bowman}, \citenamefont {Bowman}, \citenamefont {Szymanski}, \citenamefont {Yuan}, \citenamefont {Cates}, \citenamefont {Benton},\ and\ \citenamefont {Earle}}]{coulter_neutron_1990}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~P.}\ \bibnamefont {Coulter}}, \bibinfo {author} {\bibfnamefont {T.~E.}\ \bibnamefont {Chupp}}, \bibinfo {author} {\bibfnamefont {A.~B.}\ \bibnamefont {McDonald}}, \bibinfo {author} {\bibfnamefont {C.~D.}\ \bibnamefont {Bowman}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Bowman}}, \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont {Szymanski}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Yuan}}, \bibinfo {author} {\bibfnamefont {G.~D.}\ \bibnamefont {Cates}}, \bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont {Benton}},\ and\ \bibinfo {author} {\bibfnamefont {E.~D.}\ \bibnamefont {Earle}},\ }\href {https://doi.org/10.1016/0168-9002(90)90139-W} {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}\ }\textbf {\bibinfo {volume} {288}},\ \bibinfo {pages} {463} (\bibinfo {year} {1990})}\BibitemShut {NoStop}%
