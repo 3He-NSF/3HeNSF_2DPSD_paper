@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{31}%
+\begin{thebibliography}{32}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -103,6 +103,9 @@
 \bibitem [{\citenamefont {Maignan}\ \emph {et~al.}(2020)\citenamefont {Maignan}, \citenamefont {Peng}, \citenamefont {Komarek}, \citenamefont {Kuo}, \citenamefont {Chang}, \citenamefont {Wang}, \citenamefont {Hu}, \citenamefont {Chen}, \citenamefont {Tanaka}, \citenamefont {Tjeng}, \citenamefont {Lebedev},\ and\ \citenamefont {Martin}}]{maignan_spin-induced_2020}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Maignan}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Peng}}, \bibinfo {author} {\bibfnamefont {A.~C.}\ \bibnamefont {Komarek}}, \bibinfo {author} {\bibfnamefont {C.-Y.}\ \bibnamefont {Kuo}}, \bibinfo {author} {\bibfnamefont {C.-F.}\ \bibnamefont {Chang}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Hu}}, \bibinfo {author} {\bibfnamefont {C.-T.}\ \bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Tanaka}}, \bibinfo {author} {\bibfnamefont {L.~H.}\ \bibnamefont {Tjeng}}, \bibinfo {author} {\bibfnamefont {O.~I.}\ \bibnamefont {Lebedev}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Martin}},\ }\href {https://doi.org/10.1021/acs.chemmater.0c01303} {\bibfield  {journal} {\bibinfo  {journal} {Chem. Mater.}\ }\textbf {\bibinfo {volume} {32}},\ \bibinfo {pages} {5664} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Osawa}\ \emph {et~al.}()\citenamefont {Osawa}, \citenamefont {Takahashi}, \citenamefont {Nakajima} \emph {et~al.}}]{Osawa_tbp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Osawa}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Takahashi}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Nakajima}}, \emph {et~al.},\ }\href@noop {} {}\bibinfo {note} {(unpublished)}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nakamura}\ \emph {et~al.}(2012)\citenamefont {Nakamura}, \citenamefont {Kawasaki}, \citenamefont {Hosoya}, \citenamefont {Toh}, \citenamefont {Oikawa}, \citenamefont {Sakasai}, \citenamefont {Ebine}, \citenamefont {Birumachi}, \citenamefont {Soyama},\ and\ \citenamefont {Katagiri}}]{nakamura_large-area_2012}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Nakamura}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kawasaki}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Hosoya}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Toh}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Oikawa}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Sakasai}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ebine}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Birumachi}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Soyama}},\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Katagiri}},\ }\href {https://doi.org/10.1016/j.nima.2012.05.038} {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}\ }\textbf {\bibinfo {volume} {686}},\ \bibinfo {pages} {64} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
