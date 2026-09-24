@@ -143,7 +143,7 @@ We have successfully observed polarization-dependent intensities of out-of-plane
 \maketitle
 \section{Introduction}
 Polarized neutron scattering is a powerful technique for investigating magnetic order and excitations in condensed matter.
-This capability arises from the magnetic moment of neutron, which directly interacts with magnetic moments of electrons in the material through the magnetic dipole-dipole interaction.
+This capability arises from the magnetic moment of the neutron, which directly interacts with magnetic moments of electrons in the material through the magnetic dipole-dipole interaction.
 By analyzing the spin states of neutrons before and after scattering, one can separate magnetic scattering from nuclear scattering and determine the directions of magnetic moments in the sample.
 To perform these measurements, devices for controlling and probing the neutron polarization are required.
 To date, three techniques have been widely used for polarized neutron scattering.
@@ -284,14 +284,14 @@ The AFP NMR system consisted of a radio-frequency (RF) coil for flipping the \He
 Two cylindrical \He glass cells, named Kenji and Shimpachi, made of aluminosilicate glass (GE180) with nearly identical dimensions, were used in this experiment.
 Both cells were filled with $^3$He, \ce{N2}, and a mixture of Rb and K for hybrid SEOP, which provided a higher pumping efficiency than \ce{Rb}-only SEOP \cite{babcock_hybrid_2003,chen_spin-exchange_2007}.
 The details of the cell specifications are described in Table~\ref{tab:He_cell}.
-A darkroom to house the SEOP laser system, where the \He gas was polarized, was constructed in the 5G beamport experimental area.
-After the \He polarization reached saturation, only the \He cell was transported to the \Hensf~coil on the beamline.
-Neutron measurements were performed during the relaxation of the \He polarization, with the neutron polarization and transmission decreasing.
-This technique is known as the \textit{ex-situ} \Hensf~method.
-Since the \He polarization decreased with time, two cells were used alternately for the experiment.
-While one cell was used for the polarized neutron experiment, the other was polarized in the SEOP system.
-The cells were exchanged every two or three days.
 
+The \Hensf~was operated in an \textit{ex-situ} configuration, in which the \He cell was polarized in the SEOP system and then transported to the beamline for neutron measurements.
+A darkroom housing the SEOP laser system was constructed in the 5G beamport experimental area.
+After the \He polarization reached saturation, the \He cell was transported to the \Hensf~coil on the beamline.
+Neutron measurements were performed while the \He polarization relaxed, resulting in decreases in both the neutron polarization and transmission.
+Since the \He polarization decreased with time, two cells were used alternately.
+While one cell was used for polarized-neutron measurements, the other was polarized in the SEOP system.
+The cells were exchanged every two or three days.
 
 
 \section{Data reduction procedure including polarization correction}
@@ -309,19 +309,21 @@ The cells were exchanged every two or three days.
 \end{figure*}
 
 Figure~\ref{fig:procedure} shows the procedure for data acquisition, reduction, and polarization correction in the present study.
-At a sample rotation angle of $\omega=\omega_n$, we measured a pair of 2D intensity maps corresponding to non-spin-flip and spin-flip scattering by flipping the \He polarization.
-We refer to the observed intensities measured with the \He nuclear polarization parallel or antiparallel to the neutron polarization produced by the Heusler polarizer as $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$, respectively.
+At each sample rotation angle $\omega=\omega_n$, we measured a pair of 2D intensity maps corresponding to non-spin-flip and spin-flip scattering by flipping the \He polarization.
+We denote the observed intensities measured with the \He nuclear polarization parallel and antiparallel to the neutron polarization produced by the Heusler polarizer as $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$, respectively.
 All intensity maps were normalized by the measurement time.
+The measurements of $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$ were repeated while varying the sample rotation angle $\omega$.
 
-In general, a full polarization analysis experiment, one would measure four scattering intensities, $I^{++}$, $I^{+-}$, $I^{-+}$, and $I^{--}$, corresponding to the four possible combinations of the polarizer and analyzer spin state~\cite{babcock_discussion_2017}.
+To account for the time dependence of the \textit{ex-situ} \Hensf, the neutron polarization and transmission during each measurement were approximated by their values at the midpoint of the measurement.
+As shown in the left panel of Fig.~\ref{fig:procedure}, the midpoint times of two successive measurements at $\omega=\omega_n$ are denoted by $t_{2n-1}$ and $t_{2n}$.
+Each intensity map was measured for 20 min, which was sufficiently short compared with the relaxation time of the \He polarization.
+
+In a full polarization analysis experiment, one would measure four scattering intensities, $I^{++}$, $I^{+-}$, $I^{-+}$, and $I^{--}$, corresponding to the four possible combinations of the polarizer and analyzer spin states~\cite{babcock_discussion_2017}.
 These comprise two non-spin-flip channels, $I^{++}$ and $I^{--}$, and two spin-flip channels, $I^{+-}$ and $I^{-+}$.
 In the present experiment, the nuclear and magnetic reflections were spatially separated, and chiral magnetic scattering was negligible because the neutron polarization and the scattering vector were nearly perpendicular to each other~\cite{blume_polarization_1963}.
 We therefore assumed $I^{++}=I^{--}$ and $I^{+-}=I^{-+}$, allowing the polarization analysis to be performed using only the two measured channels.
-The corresponding treatment of imperfect polarization is described in Appendix~\ref{appendix}.
-Each intensity map was measured for 20 min, which was sufficiently short compared with the relaxation time of the \He polarization.
-The transmission and neutron polarization of the \Hensf~during each measurement were therefore approximated by their values at the midpoint of the measurement.
-As shown in the left panel of Fig.~\ref{fig:procedure}, the midpoint times of two successive measurements at $\omega=\omega_n$ are denoted by $t_{2n-1}$ and $t_{2n}$.
-Using this notation, the observed intensities at detector pixel $(x_i,y_j)$ are expressed as
+
+Using these relations and the midpoint times defined above, the observed intensities at detector pixel $(x_i,y_j)$ are expressed as
 \begin{widetext}
     \begin{align}
         I^{++}_\mathrm{obs}(\omega_n,t_{2n-1}, x_i,y_j) &= {T_pT_a(t_{2n-1})}\biggl[\left(1+ P_pP_a(t_{2n-1})\right)I^{++}(\omega_n, x_i,y_j) \notag\\
@@ -338,17 +340,16 @@ $P_p$ and $P_a(t)$ are the neutron polarizations produced by the Heusler polariz
 Note that the transmission and the polarization are defined for an incident unpolarized neutron beam.
 For the Heusler polarizer, $T_p$ is defined as the ratio of the Bragg-reflected intensity to the incident unpolarized neutron intensity.
 Although $P_a(t)$ is generally defined as a signed quantity ranging from $-1$ to $+1$, we define it as its magnitude, $0 \leq P_a(t) \leq 1$.
-Instead, the parallel and antiparallel orientations of the \He polarization relative to the incident neutron polarization is represented by the sign in the factor $1\pm P_pP_a(t)$ in Eqs.~\ref{eq:int_obs_pp} and \ref{eq:int_obs_pm}.
+Instead, the parallel and antiparallel orientations of the \He polarization relative to the incident neutron polarization are represented by the signs in the factors $1\pm P_pP_a(t)$ in Eqs.~\ref{eq:int_obs_pp} and \ref{eq:int_obs_pm}.
 The quantities $T_p$ and $P_p$ were treated as time-independent, whereas $T_a(t)$ and $P_a(t)$ were time-dependent because of the relaxation of the \He nuclear polarization.
 $\mathrm{BG}(x_i,y_j)$ is the background intensity at the detector pixel $(x_i, y_j)$.
 In the present experiment, the background signals were mainly due to imperfect shielding of the detector and the neutron flight path.
 Thus, we assumed that the background signals were independent of time, \He polarization, and the sample rotation angle $\omega$. %
 We measured the $\mathrm{BG}(x_i,y_j)$ by setting the $\omega$ angle away from any Bragg reflections from the sample.
-We repeated the measurements of $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$ while varying the sample rotation angle $\omega$.
 
 % In the \textit{ex-situ} \Hensf, both the neutron polarization and transmission decrease with time as the \He polarization relaxes.
 % Therefore, the paired intensities $I^{++}_\mathrm{obs}(\omega_n,t_{2n-1})$ and $I^{+-}_\mathrm{obs}(\omega_n,t_{2n})$ are affected differently by the time-dependent polarization and transmission.
-By solving Eqs.~\ref{eq:int_obs_pp} and \ref{eq:int_obs_pm} for $I^{++}$ and $I^{+-}$, we obtain the equations of the polarization correction for the dataset measured at $\omega=\omega_n$ as follows:
+By solving Eqs.~\ref{eq:int_obs_pp} and \ref{eq:int_obs_pm} for $I^{++}$ and $I^{+-}$, we obtained the equations of the polarization correction for the dataset measured at $\omega=\omega_n$ as follows:
 \begin{widetext}
     \begin{align}
         I^{++}(\omega_n,x_i,y_j) =&
