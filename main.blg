@@ -25,45 +25,45 @@ Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--empty year in Osawa_tbp
 Warning--empty year in noauthor_compact_nodate
-You've used 40 entries,
+You've used 41 entries,
             6079 wiz_defined-function locations,
-            1963 strings with 28438 characters,
-and the built_in function-call counts, 56666 in all, are:
-= -- 3248
-> -- 2165
-< -- 367
-+ -- 658
-- -- 566
-* -- 9672
-:= -- 4859
-add.period$ -- 40
-call.type$ -- 40
-change.case$ -- 165
-chr.to.int$ -- 40
-cite$ -- 44
-duplicate$ -- 4919
-empty$ -- 3846
-format.name$ -- 1243
-if$ -- 11675
+            1969 strings with 28812 characters,
+and the built_in function-call counts, 58394 in all, are:
+= -- 3336
+> -- 2240
+< -- 379
++ -- 680
+- -- 586
+* -- 9981
+:= -- 5000
+add.period$ -- 41
+call.type$ -- 41
+change.case$ -- 169
+chr.to.int$ -- 41
+cite$ -- 45
+duplicate$ -- 5066
+empty$ -- 3962
+format.name$ -- 1286
+if$ -- 12034
 int.to.chr$ -- 1
-int.to.str$ -- 48
-missing$ -- 743
-newline$ -- 172
-num.names$ -- 117
-pop$ -- 1856
+int.to.str$ -- 49
+missing$ -- 765
+newline$ -- 175
+num.names$ -- 120
+pop$ -- 1908
 preamble$ -- 1
-purify$ -- 198
+purify$ -- 203
 quote$ -- 0
-skip$ -- 2195
+skip$ -- 2259
 stack$ -- 0
-substring$ -- 1063
-swap$ -- 5226
-text.length$ -- 282
+substring$ -- 1095
+swap$ -- 5390
+text.length$ -- 292
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 722
+type$ -- 743
 warning$ -- 2
-while$ -- 114
+while$ -- 117
 width$ -- 0
-write$ -- 371
+write$ -- 379
 (There were 2 warnings)

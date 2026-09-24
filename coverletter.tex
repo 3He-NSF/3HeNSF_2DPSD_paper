@@ -1,0 +1,62 @@
+% Cover letter based on main.tex. Compile with pdfLaTeX.
+\documentclass[11pt,a4paper]{article}
+\usepackage[top=25mm,bottom=25mm,left=25.4mm,right=25.4mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{empty}
+\setlength{\emergencystretch}{1em}
+\setlength{\parindent}{14.5pt}
+\setlength{\parskip}{9pt}
+\AtBeginDocument{\fontsize{11}{14.5}\selectfont}
+
+\newcommand{\LetterDate}{\today}
+\newcommand{\JournalName}{Journal of Applied Crystallography}
+\newcommand{\ManuscriptTitle}{Polarized neutron diffraction with \textit{ex-situ} $^3$He neutron spin filter and two-dimensional detector for a complex incommensurate magnetic order}
+\newcommand{\AuthorName}{Shingo Takahashi}
+\newcommand{\Affiliation}{Institute for Solid State Physics, The University of Tokyo}
+\newcommand{\PostalAddress}{5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8581, Japan}
+\newcommand{\PhoneNumber}{+81-29-287-8910}
+\newcommand{\EmailAddress}{shingo.takahashi@issp.u-tokyo.ac.jp}
+
+\begin{document}
+{\raggedleft \LetterDate\par}
+\vspace{5pt}
+\noindent Dear Editors of \JournalName,
+
+% 第1段落：研究の紹介、背景、従来手法、残された課題。
+The present manuscript reports an experimental study on polarized neutron diffraction using a $^3$He neutron spin filter and a two-dimensional detector to investigate complex incommensurate magnetic orders.
+Polarized neutron scattering has long been used to determine magnetic moment directions and distinguish magnetic scattering from nuclear scattering.
+Recent interest in multiferroics, magnetic skyrmions, and related magnetic orders has increased the need to probe magnetic satellite reflections distributed in three-dimensional reciprocal space.
+Conventional triple-axis setups with Heusler-crystal analyzers, however, are generally restricted to reflections within the horizontal scattering plane.
+A $^3$He neutron spin filter can analyze neutrons scattered over a finite solid angle and is therefore well suited to measurements with a two-dimensional detector.
+This combination has been used in small-angle neutron scattering, although the accessible momentum-transfer range is generally limited to low $Q$.
+Extending this approach beyond the small-angle regime requires placing the spin filter and detector at finite scattering angles.
+Related instrumental concepts have been reported, but quantitative experimental demonstrations of polarization analysis with such setups remain limited.
+
+% 第2段落：研究の焦点、装置と補正法、検証、物質への適用と成果。
+In the present study, we focus on quantitative polarization analysis of magnetic reflections outside the horizontal scattering plane.
+We implemented an experimental setup combining an \textit{ex-situ} $^3$He neutron spin filter and a two-dimensional detector at the 5G beamport of JRR-3.
+We established a procedure to reconstruct three-dimensional reciprocal-space intensity distributions while correcting each detector pixel for imperfect neutron polarization and time-dependent analyzer transmission.
+The correction parameters were determined from a nuclear Bragg reflection and NMR monitoring, and the correction was validated by recovering the expected non-spin-flip character of nuclear scattering.
+We then applied this method to single-crystal diffraction measurements on the multiferroic Mn$_3$WO$_6$ at 23~K, whose three symmetry-related magnetic propagation vectors cannot all lie in a single plane through the reciprocal-space origin.
+The corrected intensities revealed predominantly non-spin-flip scattering at one incommensurate reflection and spin-flip scattering at another.
+Their measured asymmetries are inconsistent with moments parallel to the $c$ axis and are reproduced by an oblique sinusoidal model, demonstrating the sensitivity of the method to magnetic moment directions.
+
+% 第3段落：学術的意義と投稿誌への適合性。
+The present results provide an experimentally validated approach to quantitative polarization analysis in three-dimensional reciprocal space.
+These advances in polarized neutron diffraction are expected to investigate complex incommensurate magnetic structures.
+We believe that the present manuscript meets the criteria for publication in \textit{\JournalName}.
+
+\vspace{4pt}
+\noindent\begin{minipage}{\textwidth}
+\raggedleft
+Yours sincerely,\\[4pt]
+\AuthorName\\[7pt]
+\Affiliation\\
+\PostalAddress\\
+Tel: \PhoneNumber\\
+\href{mailto:\EmailAddress}{\EmailAddress}
+\end{minipage}
+\end{document}
