@@ -277,8 +277,9 @@ In the SEOP method, generally, a glass cell is filled with $^3$He, \ce{N2}, and 
 The cell is irradiated with circularly polarized light resonant with an optical transition of the alkali metal.
 The alkali-metal electrons undergo repeated excitation and de-excitation, with \ce{N2} serving as a quenching gas to suppress radiative decay, resulting in electron spin polarization.
 The polarization of the alkali metal is then transferred to the \He nuclei via spin-exchange collisions, thereby achieving \He nuclear polarization.
+
 The SEOP system used in this study was a modified version of the system developed for the polarized neutron spectrometer POLANO, installed at BL23 in MLF of J-PARC \cite{ino_development_2017}.
-Both the \Hensf~coil used for polarization analysis shown in Fig.~\ref{fig:Setup} and the SEOP system were equipped with an AFP NMR system \cite{ino_compact_2012}.
+Both the \Hensf~coil for polarization analysis shown in Fig.~\ref{fig:Setup} and that for the SEOP system were equipped with an AFP NMR system \cite{ino_compact_2012}.
 The AFP NMR system consisted of a radio-frequency (RF) coil for flipping the \He polarization and a pickup coil located at the bottom of the \He cell for monitoring the \He polarization.
 Two cylindrical \He glass cells, named Kenji and Shimpachi, made of aluminosilicate glass (GE180) with nearly identical dimensions, were used in this experiment.
 Both cells were filled with $^3$He, \ce{N2}, and a mixture of Rb and K for hybrid SEOP, which provided a higher pumping efficiency than \ce{Rb}-only SEOP \cite{babcock_hybrid_2003,chen_spin-exchange_2007}.
@@ -311,6 +312,7 @@ Figure~\ref{fig:procedure} shows the procedure for data acquisition, reduction, 
 At a sample rotation angle of $\omega=\omega_n$, we measured a pair of 2D intensity maps corresponding to non-spin-flip and spin-flip scattering by flipping the \He polarization.
 We refer to the observed intensities measured with the \He nuclear polarization parallel or antiparallel to the neutron polarization produced by the Heusler polarizer as $I^{++}_\mathrm{obs}$ and $I^{+-}_\mathrm{obs}$, respectively.
 All intensity maps were normalized by the measurement time.
+
 In general, a full polarization analysis experiment, one would measure four scattering intensities, $I^{++}$, $I^{+-}$, $I^{-+}$, and $I^{--}$, corresponding to the four possible combinations of the polarizer and analyzer spin state~\cite{babcock_discussion_2017}.
 These comprise two non-spin-flip channels, $I^{++}$ and $I^{--}$, and two spin-flip channels, $I^{+-}$ and $I^{-+}$.
 In the present experiment, the nuclear and magnetic reflections were spatially separated, and chiral magnetic scattering was negligible because the neutron polarization and the scattering vector were nearly perpendicular to each other~\cite{blume_polarization_1963}.
@@ -555,14 +557,17 @@ We clearly observed that the difference in intensity takes positive and negative
 To compare the spin-dependent intensities more quantitatively, line profiles along the $H$ direction were obtained by projecting the intensities within the dashed-box regions corresponding to $\boldsymbol{q}_3$ and $\boldsymbol{q}_1$ in Fig.~\ref{fig:measured_Qregion}(c).
 The resulting line profiles are shown in Figs.~\ref{fig:measured_Qregion}(f) and \ref{fig:measured_Qregion}(g), respectively.
 At the reflection corresponding to $\boldsymbol{q}_3$, we found that the magnetic scattering intensity was dominated by spin-flip scattering, while at $\boldsymbol{q}_1$, the non-spin-flip scattering was more prominent.
-The asymmetry of the line profiles, defined as $(I^{++}-I^{+-})/(I^{++}+I^{+-})$, was calculated from the integrated intensities, and the results are summarized in Table~\ref{tab:asymmetry}. Since the neutron polarization is parallel to the $z$ axis defined in Fig.~\ref{fig:measured_Qregion}(a), the spin-flip scattering arises from the Fourier-transformed magnetization components in the $xy$ plane, which contains the $a$ and $c$ axes.
+The asymmetry of the line profiles, defined as $(I^{++}-I^{+-})/(I^{++}+I^{+-})$, was calculated from the integrated intensities, and the results are summarized in Table~\ref{tab:asymmetry}.
+
+We compared the measured asymmetries with those calculated for different magnetic moment directions.
+Since the neutron polarization is parallel to the $z$ axis defined in Fig.~\ref{fig:measured_Qregion}(a), the spin-flip scattering arises from the Fourier-transformed magnetization components in the $xy$ plane, which contains the $a$ and $c$ axes.
 If the magnetic moments have only a $c$-axis component, as illustrated in Fig.~\ref{fig:qvector}(a), the calculated asymmetry is $-0.99$ for both reflections.
 In this case, both reflections would appear predominantly in the spin-flip channel, which is inconsistent with the experimental results.
 We therefore considered an oblique sinusoidal model, as illustrated in Fig.~\ref{fig:qvector}(b).
 The moment direction is specified by the polar angle $\theta$, measured from the $c$ axis, and the azimuthal angle $\phi$, measured from the $a$ axis.
 A least-squares analysis was performed to determine $\theta$ and $\phi$, yielding $\theta=49.5^\circ$ and $\phi=108.5^\circ$.
 A more detailed structural analysis, including data from other regions of reciprocal space, will be reported elsewhere~\cite{Osawa_tbp}.
-The present results demonstrated that polarized neutron scattering with a \Hensf~and a 2D detector is quite useful for solving complex incommensurate magnetic structures.
+These results demonstrate that the combination of a \Hensf~and a 2D detector enables polarization analysis of magnetic reflections distributed in three-dimensional reciprocal space.
 \begin{table}[t]
   \centering
   \caption{Measured and calculated asymmetries for the
